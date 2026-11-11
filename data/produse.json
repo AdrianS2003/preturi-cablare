@@ -1,0 +1,368 @@
+{
+ "produse": [
+  {
+   "id": "p001",
+   "categorie": "Rack-uri, PDU și UPS",
+   "denumire": "Rack 19\" minim 42U, TEMPEST Clasă minim BC, de podea, ușă față cu încuietoare, cu unitate de ventilare cu control automat, unitate PDU cu minim 8 prize Shuko, Kit împământare și organizatoare verticale incluse",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null,
+   "ansamblu": true,
+   "de_verificat": "Produs specializat (TEMPEST): probabil puține surse publice; prevăd preț introdus manual."
+  },
+  {
+   "id": "p002",
+   "categorie": "Rack-uri, PDU și UPS",
+   "denumire": "Rack 19\" minim 9U, 600x600 mm, metalic, laterale detașabile, ușă față cu încuietoare și cu unitate de ventilare cu control automat",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p003",
+   "categorie": "Rack-uri, PDU și UPS",
+   "denumire": "Unitate (PDU) 8 prize Schuko cu conexiune IEC la UPS, rackabilă",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p004",
+   "categorie": "Rack-uri, PDU și UPS",
+   "denumire": "Organizatoare orizontale de cabluri, metalice, pentru Rack19\"",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p005",
+   "categorie": "Rack-uri, PDU și UPS",
+   "denumire": "UPS rackabil 3000 VA, minim 2 ieșiri IEC, cu management și stabilizator de tensiune și",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null,
+   "de_verificat": "Textul din poză pare tăiat la sfârșit; confirmă denumirea completă."
+  },
+  {
+   "id": "p006",
+   "categorie": "Rack-uri, PDU și UPS",
+   "denumire": "Kit montare echipamente rack (șurub+șaibă+piuliță)",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p007",
+   "categorie": "Fibră optică: cabluri și echipamente",
+   "denumire": "Priză dublă fibră optică aplicată, tip cutie terminală de distribuție fibră optică (Optical Terminal Box), de interior, 4 suduri FO MM, 2 x LC Duplex, complet echipată și asamblată (inclusiv casete sudură și accesorii - pigtails, adaptorii LC Duplex, tuburi termocontractibile, pentru minim 4 suduri optice)",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null,
+   "ansamblu": true,
+   "de_verificat": "Ansamblu: prețul ar trebui să fie suma componentelor."
+  },
+  {
+   "id": "p008",
+   "categorie": "Fibră optică: cabluri și echipamente",
+   "denumire": "Cablu Fibră optică Multi Mode, 48 fibre (24 perechi), OM4, interior, LSZH",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null,
+   "de_verificat": "Preț la metru sau la tambur? De stabilit unitatea."
+  },
+  {
+   "id": "p009",
+   "categorie": "Fibră optică: cabluri și echipamente",
+   "denumire": "Cablu Fibră optică Multi Mode, 4 fibre (2 perechi), OM4, interior, LSZH",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null,
+   "de_verificat": "Preț la metru sau la tambur? De stabilit unitatea."
+  },
+  {
+   "id": "p010",
+   "categorie": "Fibră optică: cabluri și echipamente",
+   "denumire": "Switch rackabil FO, minim (24 + 4) porturi SFP, complet echipat și asamblat, inclusiv minim (24 + 4) x Transceiver/modul SFP FO Multi Mode duplex LC, compatibile cu echipamentul",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null,
+   "ansamblu": true,
+   "de_verificat": "Ansamblu: switch + 28 module SFP, preț însumat."
+  },
+  {
+   "id": "p011",
+   "categorie": "Fibră optică: cabluri și echipamente",
+   "denumire": "Patch panel optic ODF 19\"/1U, rackabil, minim 24 adaptori LC duplex MM, min.OM3, complet echipat și asamblat (inclusiv casete sudură și accesorii - pigtails, adaptorii LC Duplex, cu șuruburi de",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null,
+   "ansamblu": true,
+   "de_verificat": "Textul din poză e tăiat la sfârșit; confirmă denumirea completă."
+  },
+  {
+   "id": "p012",
+   "categorie": "Patch cord fibră optică",
+   "denumire": "Patch cord fibră optică MM, min.OM3, 50/125µm, manta LSZH, LC/LC, DUPLEX (0,5 m)",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p013",
+   "categorie": "Patch cord fibră optică",
+   "denumire": "Patch cord fibră optică MM, min.OM3, 50/125µm, manta LSZH, LC/LC, DUPLEX (1,0 m)",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p014",
+   "categorie": "Patch cord fibră optică",
+   "denumire": "Patch cord fibră optică MM, min.OM3, 50/125µm, manta LSZH, LC/LC, DUPLEX (2,0 m)",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p015",
+   "categorie": "Patch cord fibră optică",
+   "denumire": "Patch cord fibră optică MM, min.OM3, 50/125µm, manta LSZH, LC/LC, DUPLEX (3,0 m)",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p016",
+   "categorie": "Patch cord fibră optică",
+   "denumire": "Patch cord fibră optică MM, min.OM3, 50/125µm, manta LSZH, LC/LC, DUPLEX (10,0 m)",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p017",
+   "categorie": "Patch cord fibră optică",
+   "denumire": "Patch cord fibră optică MM, min.OM3, 50/125µm, manta LSZH, LC/LC, DUPLEX (30,0 m)",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p018",
+   "categorie": "Canale și suspendare metalice",
+   "denumire": "Canal cablu metalic, cu capac, 100x35x0,75mm",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null,
+   "de_verificat": "Lungimea barei nu e specificată (de obicei 2 sau 3 m)."
+  },
+  {
+   "id": "p019",
+   "categorie": "Canale și suspendare metalice",
+   "denumire": "Profil/șină metalică, pt suspendare canal metalic 100x35x0,75mm (bară 3m)",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p020",
+   "categorie": "Canale și suspendare metalice",
+   "denumire": "Tijă filetată M8, 1m",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p021",
+   "categorie": "Canale și suspendare metalice",
+   "denumire": "Piuliță metalică expandabilă M8 (diam. int. 8 mm)",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p022",
+   "categorie": "Canale și suspendare metalice",
+   "denumire": "Piuliță metalică M8 (diam. int. 8 mm)",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p023",
+   "categorie": "Canale și suspendare metalice",
+   "denumire": "Mufă îmbinare pentru tija filetată M8",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p024",
+   "categorie": "Canale și suspendare metalice",
+   "denumire": "Set șurub cap rotund M6 și piuliță hexagonală (prindere jgheab metalic 100x35x0,75mm)",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p025",
+   "categorie": "Canale și suspendare metalice",
+   "denumire": "Set șurub cap rotund M8 și piuliță hexagonală (prindere jgheab metalic 100x35x0,75mm)",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p026",
+   "categorie": "Canale și suspendare metalice",
+   "denumire": "Șaiba plată M6, oțel zincat",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p027",
+   "categorie": "Canale și suspendare metalice",
+   "denumire": "Șaiba plată M8, oțel zincat",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p028",
+   "categorie": "Canale și suspendare metalice",
+   "denumire": "Disc tăiere metal, 125x22,2x1 mm, pentru flex",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p029",
+   "categorie": "Canale PVC și accesorii",
+   "denumire": "Canal cablu, 40x25 mm (l x h), din material plastic, fără halogeni, ignifugat, cu capac",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p030",
+   "categorie": "Canale PVC și accesorii",
+   "denumire": "Cot interior pt. canal PVC cablu, 40x25 mm (l x h), din material plastic, fără halogeni, ignifugat, cu capac",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p031",
+   "categorie": "Canale PVC și accesorii",
+   "denumire": "Cot exterior pt. canal PVC cablu, 40x25 mm (l x h), din material plastic, fără halogeni, ignifugat, cu capac",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p032",
+   "categorie": "Canale PVC și accesorii",
+   "denumire": "Cot plan tip L (urcare-coborâre) pt. canal PVC cablu, 40x25 mm (l x h), din material plastic, fără halogeni, ignifugat, cu capac",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p033",
+   "categorie": "Canale PVC și accesorii",
+   "denumire": "Piesă capăt canal PVC cablu, 40x25 mm (l x h), din material plastic, fără halogeni, ignifugat, cu capac",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p034",
+   "categorie": "Canale PVC și accesorii",
+   "denumire": "Canal cablu, 60x40 mm (l x h), din material plastic, fără halogeni, ignifugat, cu capac",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p035",
+   "categorie": "Canale PVC și accesorii",
+   "denumire": "Cot interior pt. canal PVC cablu, 60x40 mm (l x h), din material plastic, fără halogeni, ignifugat, cu capac",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p036",
+   "categorie": "Canale PVC și accesorii",
+   "denumire": "Cot exterior pt. canal PVC cablu, 60x40 mm (l x h), din material plastic, fără halogeni, ignifugat, cu capac",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p037",
+   "categorie": "Canale PVC și accesorii",
+   "denumire": "Cot plan tip L (urcare-coborâre) pt. canal PVC cablu, 60x40 mm (l x h), din material plastic, fără halogeni, ignifugat, cu capac",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p038",
+   "categorie": "Canale PVC și accesorii",
+   "denumire": "Piesă capăt canal PVC cablu, 60x40 mm (l x h), din material plastic, fără halogeni, ignifugat, cu capac",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p039",
+   "categorie": "Fixare și prindere",
+   "denumire": "Holțșurub cu diblu Fi8x80mm, pt beton/zidărie BCA/cărămidă (100 buc.)",
+   "ambalaj_cantitate": 100,
+   "ambalaj_unitate": "buc"
+  },
+  {
+   "id": "p040",
+   "categorie": "Fixare și prindere",
+   "denumire": "Diblu metalic autoperforant, cu șurub 4,5x35mm, pt rigips (100 buc.)",
+   "ambalaj_cantitate": 100,
+   "ambalaj_unitate": "buc"
+  },
+  {
+   "id": "p041",
+   "categorie": "Fixare și prindere",
+   "denumire": "Colier plastic 200x4,8 mm (100 buc.)",
+   "ambalaj_cantitate": 100,
+   "ambalaj_unitate": "buc"
+  },
+  {
+   "id": "p042",
+   "categorie": "Fixare și prindere",
+   "denumire": "Colier plastic 100x2,5 mm (100 buc.)",
+   "ambalaj_cantitate": 100,
+   "ambalaj_unitate": "buc"
+  },
+  {
+   "id": "p043",
+   "categorie": "Consumabile fibră optică",
+   "denumire": "Alcool izopropilic (99,8%)",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null,
+   "de_verificat": "Volumul ambalajului nu e specificat (de ex. 1 l); preț comparat pe litru."
+  },
+  {
+   "id": "p044",
+   "categorie": "Consumabile fibră optică",
+   "denumire": "Cutie șervețele pentru fibră optică, 100 buc.",
+   "ambalaj_cantitate": 100,
+   "ambalaj_unitate": "buc"
+  },
+  {
+   "id": "p045",
+   "categorie": "Consumabile fibră optică",
+   "denumire": "Tub termocontractibil 60mm pentru sudură fibră optică, 100 buc.",
+   "ambalaj_cantitate": 100,
+   "ambalaj_unitate": "buc"
+  },
+  {
+   "id": "p046",
+   "categorie": "Consumabile fibră optică",
+   "denumire": "Tub termocontractibil 40mm pentru sudură fibră optică, 100 buc.",
+   "ambalaj_cantitate": 100,
+   "ambalaj_unitate": "buc"
+  },
+  {
+   "id": "p047",
+   "categorie": "Consumabile fibră optică",
+   "denumire": "Tub spray aer comprimat, min.400 ml",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p048",
+   "categorie": "Consumabile generale și etichetare",
+   "denumire": "Bandă adezivă izolatoare",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p049",
+   "categorie": "Consumabile generale și etichetare",
+   "denumire": "Bandă adezivă hârtie 38 mm",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null
+  },
+  {
+   "id": "p050",
+   "categorie": "Consumabile generale și etichetare",
+   "denumire": "Rolă etichetat 19mmx3,5mm Black&White",
+   "ambalaj_cantitate": null,
+   "ambalaj_unitate": null,
+   "de_verificat": "Lungimea 3,5 mm pare o eroare de scriere (3,5 m?). Confirmă."
+  }
+ ]
+}
