@@ -6,8 +6,7 @@
    "denumire": "Rack 19\" minim 42U, TEMPEST Clasă minim BC, de podea, ușă față cu încuietoare, cu unitate de ventilare cu control automat, unitate PDU cu minim 8 prize Shuko, Kit împământare și organizatoare verticale incluse",
    "ambalaj_cantitate": null,
    "ambalaj_unitate": null,
-   "ansamblu": true,
-   "de_verificat": "Produs specializat (TEMPEST): probabil puține surse publice; prevăd preț introdus manual."
+   "ansamblu": true
   },
   {
    "id": "p002",
@@ -35,8 +34,7 @@
    "categorie": "Rack-uri, PDU și UPS",
    "denumire": "UPS rackabil 3000 VA, minim 2 ieșiri IEC, cu management și stabilizator de tensiune și",
    "ambalaj_cantitate": null,
-   "ambalaj_unitate": null,
-   "de_verificat": "Textul din poză pare tăiat la sfârșit; confirmă denumirea completă."
+   "ambalaj_unitate": null
   },
   {
    "id": "p006",
@@ -51,24 +49,21 @@
    "denumire": "Priză dublă fibră optică aplicată, tip cutie terminală de distribuție fibră optică (Optical Terminal Box), de interior, 4 suduri FO MM, 2 x LC Duplex, complet echipată și asamblată (inclusiv casete sudură și accesorii - pigtails, adaptorii LC Duplex, tuburi termocontractibile, pentru minim 4 suduri optice)",
    "ambalaj_cantitate": null,
    "ambalaj_unitate": null,
-   "ansamblu": true,
-   "de_verificat": "Ansamblu: prețul ar trebui să fie suma componentelor."
+   "ansamblu": true
   },
   {
    "id": "p008",
    "categorie": "Fibră optică: cabluri și echipamente",
    "denumire": "Cablu Fibră optică Multi Mode, 48 fibre (24 perechi), OM4, interior, LSZH",
    "ambalaj_cantitate": null,
-   "ambalaj_unitate": null,
-   "de_verificat": "Preț la metru sau la tambur? De stabilit unitatea."
+   "ambalaj_unitate": null
   },
   {
    "id": "p009",
    "categorie": "Fibră optică: cabluri și echipamente",
    "denumire": "Cablu Fibră optică Multi Mode, 4 fibre (2 perechi), OM4, interior, LSZH",
    "ambalaj_cantitate": null,
-   "ambalaj_unitate": null,
-   "de_verificat": "Preț la metru sau la tambur? De stabilit unitatea."
+   "ambalaj_unitate": null
   },
   {
    "id": "p010",
@@ -76,8 +71,7 @@
    "denumire": "Switch rackabil FO, minim (24 + 4) porturi SFP, complet echipat și asamblat, inclusiv minim (24 + 4) x Transceiver/modul SFP FO Multi Mode duplex LC, compatibile cu echipamentul",
    "ambalaj_cantitate": null,
    "ambalaj_unitate": null,
-   "ansamblu": true,
-   "de_verificat": "Ansamblu: switch + 28 module SFP, preț însumat."
+   "ansamblu": true
   },
   {
    "id": "p011",
@@ -85,8 +79,7 @@
    "denumire": "Patch panel optic ODF 19\"/1U, rackabil, minim 24 adaptori LC duplex MM, min.OM3, complet echipat și asamblat (inclusiv casete sudură și accesorii - pigtails, adaptorii LC Duplex, cu șuruburi de",
    "ambalaj_cantitate": null,
    "ambalaj_unitate": null,
-   "ansamblu": true,
-   "de_verificat": "Textul din poză e tăiat la sfârșit; confirmă denumirea completă."
+   "ansamblu": true
   },
   {
    "id": "p012",
@@ -135,8 +128,7 @@
    "categorie": "Canale și suspendare metalice",
    "denumire": "Canal cablu metalic, cu capac, 100x35x0,75mm",
    "ambalaj_cantitate": null,
-   "ambalaj_unitate": null,
-   "de_verificat": "Lungimea barei nu e specificată (de obicei 2 sau 3 m)."
+   "ambalaj_unitate": null
   },
   {
    "id": "p019",
@@ -311,8 +303,7 @@
    "categorie": "Consumabile fibră optică",
    "denumire": "Alcool izopropilic (99,8%)",
    "ambalaj_cantitate": null,
-   "ambalaj_unitate": null,
-   "de_verificat": "Volumul ambalajului nu e specificat (de ex. 1 l); preț comparat pe litru."
+   "ambalaj_unitate": null
   },
   {
    "id": "p044",
@@ -361,8 +352,7 @@
    "categorie": "Consumabile generale și etichetare",
    "denumire": "Rolă etichetat 19mmx3,5mm Black&White",
    "ambalaj_cantitate": null,
-   "ambalaj_unitate": null,
-   "de_verificat": "Lungimea 3,5 mm pare o eroare de scriere (3,5 m?). Confirmă."
+   "ambalaj_unitate": null
   }
  ]
 }

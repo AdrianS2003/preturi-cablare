@@ -318,7 +318,6 @@ function detailHtml(it, act, mult) {
     });
   }
   h += '<div class="dnote">' + esc(summary) + '</div>';
-  if (it.note) h += '<div class="dnote warn">De verificat: ' + esc(it.note) + '</div>';
   if (edit) {
     h += '<div class="actions">';
     if (S.confirm === it.id) h += '<div class="confirm" role="group" aria-label="Confirmare arhivare"><span>Arhivezi produsul?</span><button type="button" class="mini primary" data-act="do-archive" data-id="' + esc(it.id) + '">Da, arhivează</button><button type="button" class="mini" data-act="cancel-archive">Nu</button></div>';
