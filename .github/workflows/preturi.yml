@@ -1,0 +1,40 @@
+name: Actualizare prețuri
+
+on:
+  schedule:
+    - cron: '0 4 * * *'   # zilnic, ~06:00 ora României (iarna); GitHub poate întârzia câteva minute
+  workflow_dispatch:
+    inputs:
+      produse:
+        description: 'Doar aceste produse (ID-uri separate prin virgulă, ex: p001,p014). Gol = toate.'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: preturi
+  cancel-in-progress: false
+
+jobs:
+  colecteaza:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Citește prețurile
+        env:
+          PRODUSE: ${{ github.event.inputs.produse }}
+        run: |
+          if [ -n "$PRODUSE" ]; then python scripts/colectare.py --only "$PRODUSE"; else python scripts/colectare.py; fi
+      - name: Salvează rezultatul
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/preturi.json
+          if git diff --cached --quiet; then echo "Nicio modificare."; else git commit -m "Actualizare prețuri $(date -u +%F)" && git push; fi
