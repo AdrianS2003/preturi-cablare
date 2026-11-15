@@ -1,28 +1,28 @@
 {
- "actualizat": "2026-11-14T11:16:35Z",
+ "actualizat": "2026-11-15T11:49:17Z",
  "surse": {
   "p002": [
    {
     "nume": "Ethercom",
     "url": "https://ethercom.ro/cabinet-rack-server-19-10-inch/10279-dulap-rack-19-signal-9u-600-mm-wallmount.html",
     "pret": 501.76,
-    "verificat": "2026-11-14T11:16:35Z"
+    "verificat": "2026-11-15T11:49:17Z"
    }
   ],
   "p003": [
    {
     "nume": "Ethercom",
     "url": "https://ethercom.ro/pdu-prize-rackabile/15585-priza-multipla-pd-8-rack-n.html",
-    "pret": 81.52,
-    "verificat": "2026-11-14T11:16:35Z"
+    "pret": 81.21,
+    "verificat": "2026-11-15T11:49:17Z"
    }
   ],
   "p004": [
    {
     "nume": "Ethercom",
     "url": "https://ethercom.ro/organizatoare-de-cabluri/3853-organizator-cabluri-okr-5.html",
-    "pret": 21.01,
-    "verificat": "2026-11-14T11:16:35Z"
+    "pret": 20.91,
+    "verificat": "2026-11-15T11:49:17Z"
    }
   ],
   "p013": [
@@ -30,7 +30,7 @@
     "nume": "Fiberstore",
     "url": "https://fiberstore.ro/903--patchcord-multi-mode-lcupc-lcupc-om3-duplex-3mm-1-m.html",
     "pret": 12.4,
-    "verificat": "2026-11-14T11:16:35Z"
+    "verificat": "2026-11-15T11:49:17Z"
    }
   ],
   "p015": [
@@ -38,7 +38,7 @@
     "nume": "SMD Plus (OM4)",
     "url": "https://smd-plus.ro/patchcorduri-si-pigtailuri-fo/790-patchcord-fo-lc-pc-lc-pc-mm-om4-50-125-manta-lszh-20mm-duplex-3m.html",
     "pret": 21.03,
-    "verificat": "2026-11-14T11:16:35Z"
+    "verificat": "2026-11-15T11:49:17Z"
    }
   ],
   "p017": [
@@ -46,7 +46,7 @@
     "nume": "SMD Plus",
     "url": "https://smd-plus.ro/patchcorduri-si-pigtailuri-fo/1746-patchcord-fo-lcpc-lcpc-mm-om3-50125-manta-lszh-20mm-duplex-30m.html",
     "pret": 91.1,
-    "verificat": "2026-11-14T11:16:35Z"
+    "verificat": "2026-11-15T11:49:17Z"
    }
   ],
   "p028": [
@@ -54,7 +54,7 @@
     "nume": "Dedeman",
     "url": "https://www.dedeman.ro/ro/disc-debitare-metal-red-square-rq1251-125-x-22-2-x-1-mm/p/1024541",
     "pret": 2.97,
-    "verificat": "2026-11-14T11:16:35Z"
+    "verificat": "2026-11-15T11:49:17Z"
    }
   ],
   "p039": [
@@ -62,7 +62,7 @@
     "nume": "Dedeman",
     "url": "https://www.dedeman.ro/ro/diblu-universal-din-polipropilena-sea-cu-surub-cap-inecat-8-x-80-mm-100-bucati/p/1083297",
     "pret": 48.02,
-    "verificat": "2026-11-14T11:16:35Z"
+    "verificat": "2026-11-15T11:49:17Z"
    }
   ],
   "p043": [
@@ -70,7 +70,7 @@
     "nume": "Fiberstore (1 L)",
     "url": "https://fiberstore.ro/331-alcool-izopropilic-1-l.html",
     "pret": 27.27,
-    "verificat": "2026-11-14T11:16:35Z"
+    "verificat": "2026-11-15T11:49:17Z"
    }
   ],
   "p045": [
@@ -78,15 +78,18 @@
     "nume": "Fiberstore",
     "url": "https://fiberstore.ro/145-tub-termoretractabil-protectie-suduri-60-mm.html",
     "pret": 11.57,
-    "verificat": "2026-11-14T11:16:35Z"
+    "verificat": "2026-11-15T11:49:17Z"
    },
    {
     "nume": "SMD Plus (set 24 buc)",
     "url": "https://smd-plus.ro/conectica-fibra-optica/1672-tub-termocontractabil-protectie-sudura-60mm.html",
     "pret": 19.13,
-    "verificat": "2026-11-14T11:16:35Z"
+    "verificat": "2026-11-15T11:49:17Z"
    }
   ]
  },
- "variatie": {}
+ "variatie": {
+  "p003": -0.4,
+  "p004": -0.5
+ }
 }
