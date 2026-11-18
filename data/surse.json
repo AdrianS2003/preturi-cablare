@@ -3,30 +3,120 @@
   {
    "nume": "Ethercom",
    "url": "https://ethercom.ro/cabinet-rack-server-19-10-inch/10279-dulap-rack-19-signal-9u-600-mm-wallmount.html"
+  },
+  {
+   "nume": "Fiberstore",
+   "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/rack-9u-600x600-negru-hondao-montaj-pe-perete/"
+  },
+  {
+   "nume": "Ethercom (Eprado)",
+   "url": "https://ethercom.ro/cabinet-rack-server-19-10-inch/39940-dulap-rack-wallmount-eprado-r19-9u-600-blue.html"
+  },
+  {
+   "nume": "Mondo Plast",
+   "url": "https://www.mondoplast.ro/Dulap-Rack-9U-wall-mount-Braun-Group-WMF9U-600-pg_ft-7101"
   }
  ],
  "p003": [
   {
    "nume": "Ethercom",
    "url": "https://ethercom.ro/pdu-prize-rackabile/15585-priza-multipla-pd-8-rack-n.html"
+  },
+  {
+   "nume": "Fiberstore (mufă UPS)",
+   "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/pdu-prize-rack/priza-rack-pdu-8-porturi-cu-intrerupator-si-mufa-pentru-ups/"
+  },
+  {
+   "nume": "Mondo Plast",
+   "url": "https://www.mondoplast.ro/PDU-industrial-8-prize-Schuko--4000W--16A--buton-ON-OFF--19-1U--PVC-Braun-Group-12023_BG05-G8KP-PDU-pg_ft-8533"
+  },
+  {
+   "nume": "ITConex",
+   "url": "https://itconex.ro/ro/produse/72-bara-alimentare-pdu-8-prize-schuko-cu-intrerupator-cu-led-1u-19-inch-16amp.html"
+  },
+  {
+   "nume": "Ethercom (PD-8/R)",
+   "url": "https://ethercom.ro/pdu-prize-rackabile/39491-priza-multipla-pd-8-r.html"
   }
  ],
  "p004": [
   {
    "nume": "Ethercom",
    "url": "https://ethercom.ro/organizatoare-de-cabluri/3853-organizator-cabluri-okr-5.html"
+  },
+  {
+   "nume": "Fiberstore",
+   "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/organizatoare-de-cabluri/organizator-cabluri-1u-negru-cu-capac-din-metal/"
+  },
+  {
+   "nume": "Mondo Plast",
+   "url": "https://www.mondoplast.ro/Organizator-cabluri-cu-degete-si-capac-19--metalic-Braun-Group-CMM12---CM3002-pg_ft-1622"
+  },
+  {
+   "nume": "ITConex",
+   "url": "https://itconex.ro/ro/produse/49-organizator-cablu-1u-19-inch-4-inele-metalice-negru.html"
   }
  ],
  "p005": [
   {
    "nume": "Ethercom (Green Cell UPS15)",
    "url": "https://ethercom.ro/ups-surse-neintreruptibile/43056-ups-ups15-rack-3000-va-green-cell.html"
+  },
+  {
+   "nume": "Ethercom (EAST online)",
+   "url": "https://ethercom.ro/ups-surse-neintreruptibile/12380-ups-at-ups3000rt-rack-3000-va-east.html"
+  },
+  {
+   "nume": "Mondo Plast",
+   "url": "https://www.mondoplast.ro/UPS-interactiv-cu-iesire-sinus-rack-abil-Braun-Group-UPS-3000SINLCD19-pg_ft-6099"
   }
  ],
  "p006": [
   {
-   "nume": "Ethercom (set 4 buc)",
-   "url": "https://ethercom.ro/accesorii/11251-set-suruburi-rack-sm-6-rack.html"
+   "nume": "Ethercom (set 4 → 1 buc)",
+   "url": "https://ethercom.ro/accesorii/11251-set-suruburi-rack-sm-6-rack.html",
+   "factor": 0.25
+  },
+  {
+   "nume": "ITConex (set 50 → 1 buc)",
+   "url": "https://itconex.ro/ro/produse/70-set-surub-saiba-si-piulita-captiva-m6-pentru-cabinet-si-rack-50-buc.html",
+   "factor": 0.02
+  }
+ ],
+ "p007": [
+  {
+   "nume": "ITConex (neechipată)",
+   "url": "https://itconex.ro/ro/produse/80-priza-fibra-optica-pentru-2-adaptori-sc-simplex-lc-duplex-flangeless-sistem-instalare-45x45mm50x50mm-neechipata.html"
+  },
+  {
+   "nume": "Ethercom TB-02H (neechipată)",
+   "url": "https://ethercom.ro/cutii-de-distributie-ftth-si-odf/9570-terminal-box-pentru-fibra-optica-ultimode-tb-02h.html"
+  }
+ ],
+ "p008": [
+  {
+   "nume": "Mondo Plast (preț/m)",
+   "url": "https://www.mondoplast.ro/Cablu-fibra-optica-Multi-Mode-LTC-RP-LSZH-2-5KN-nextraCOM-48-fibre-MM--4x12--OM4-pg_ft-7940"
+  }
+ ],
+ "p009": [
+  {
+   "nume": "Mondo Plast TKF LSZH (preț/m)",
+   "url": "https://www.mondoplast.ro/Cablu-Fibra-optica-Multi-Mode-OM4-TKF-LSZH-1-6kN-4x50-125-OM4-pg_ft-6919"
+  },
+  {
+   "nume": "Mondo Plast nextraCOM (preț/m)",
+   "url": "https://www.mondoplast.ro/Cablu-fibra-optica-Multi-Mode-CTC-LSZH-nextraCOM-4-fibre-MM-50-125-OM4-pg_ft-7528"
+  }
+ ],
+ "p011": [
+  {
+   "nume": "Fiberstore",
+   "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/cutii-de-jonctiune/patchpanel-fibra-optica/patch-panel-odf-24-lcupc-duplex-multimode-om3-48-fibre/"
+  },
+  {
+   "nume": "Mondo Plast",
+   "url": "https://www.mondoplast.ro/Patch-panel-optic-1U-24-adaptori-LC-UPC-DX-Braun-Group-PPS-24LUPC-D-pg_ft-7949"
   }
  ],
  "p012": [
@@ -49,12 +139,20 @@
   {
    "nume": "Ethercom (OM4)",
    "url": "https://ethercom.ro/patchcord-fibra-optica/30848-patchcord-lc-lc-mm-om4-50-125-duplex-2m.html"
+  },
+  {
+   "nume": "Fiberstore",
+   "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-lcupc-lcupc-mm-om3-duplex-3-0mm-2m/"
   }
  ],
  "p015": [
   {
    "nume": "SMD Plus (OM4)",
    "url": "https://smd-plus.ro/patchcorduri-si-pigtailuri-fo/790-patchcord-fo-lc-pc-lc-pc-mm-om4-50-125-manta-lszh-20mm-duplex-3m.html"
+  },
+  {
+   "nume": "Fiberstore",
+   "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-lcupc-lcupc-mm-om3-duplex-3-0mm-3m/"
   }
  ],
  "p016": [
@@ -77,22 +175,50 @@
    "url": "https://ethercom.ro/patchcord-fibra-optica/34555-patchcord-lc-lc-mm-om4-50-125-duplex-30m.html"
   }
  ],
+ "p018": [
+  {
+   "nume": "Dedeman Metallodomi (preț/m)",
+   "url": "https://www.dedeman.ro/ro/jgheab-metalic-metallodomi-12-301-otel-galvanizat-0-75-x-35-x-100-mm/p/1011771"
+  }
+ ],
  "p020": [
   {
    "nume": "Dedeman",
    "url": "https://www.dedeman.ro/ro/tija-filetata-din-otel-zincat-alb-din-975-diametrul-m8-1000-mm/p/6003654"
+  },
+  {
+   "nume": "Dedeman (3141128)",
+   "url": "https://www.dedeman.ro/ro/tija-filetata-m8-3141128-otel-zincat-1000-mm/p/1003984"
   }
  ],
  "p022": [
   {
    "nume": "Dedeman",
    "url": "https://www.dedeman.ro/ro/piulita-hexagonala-din-otel-zincat-alb-din-934-m8/p/6000210"
+  },
+  {
+   "nume": "Ethercom",
+   "url": "https://ethercom.ro/accesorii-montaj/35794-piulita-hexagonala-n-m8-kl-8.html"
   }
  ],
  "p023": [
   {
    "nume": "Dedeman",
    "url": "https://www.dedeman.ro/ro/mufa-hexagonala-pentru-imbinare-tija-filetata-g-6410081-otel-m8-x-24-mm/p/1015605"
+  },
+  {
+   "nume": "Dedeman (DIN6334)",
+   "url": "https://www.dedeman.ro/ro/piulita-hexagonala-de-cuplare-din-otel-din6334-6-m8-x-24-mm/p/6004183"
+  },
+  {
+   "nume": "Dedeman (Fischer)",
+   "url": "https://www.dedeman.ro/ro/piulita-hexagonala-de-cuplare-din-otel-fischer-79690-m8-x-30-mm/p/1033452"
+  }
+ ],
+ "p024": [
+  {
+   "nume": "Dedeman (semirotund + piuliță)",
+   "url": "https://www.dedeman.ro/ro/surub-semirotund-cu-piulita-6406122-otel-m6-x-12-mm/p/1001724"
   }
  ],
  "p026": [
@@ -117,30 +243,115 @@
   {
    "nume": "Dedeman (bară 2 m)",
    "url": "https://www.dedeman.ro/ro/canal-cablu-jgheab-40-x-25-mm-cu-capac-2-m-alb-pvc-ignifugat/p/1039843"
+  },
+  {
+   "nume": "Dedeman WDK",
+   "url": "https://www.dedeman.ro/ro/canal-cablu-wdk-6191061-25-x-40-mm-cu-capac-alb-pvc/p/1005055"
+  }
+ ],
+ "p030": [
+  {
+   "nume": "Dedeman (set 5 → 1 buc)",
+   "url": "https://www.dedeman.ro/ro/unghi-interior-p-40-x-25-mf0013-32260-set-5-bucati/p/1021659",
+   "factor": 0.2
+  }
+ ],
+ "p031": [
+  {
+   "nume": "Dedeman (set 5 → 1 buc)",
+   "url": "https://www.dedeman.ro/ro/unghi-exterior-p-40-x-25-mf0013-32261-set-5-bucati/p/1021660",
+   "factor": 0.2
   }
  ],
  "p034": [
   {
    "nume": "Dedeman (bară 2 m)",
    "url": "https://www.dedeman.ro/ro/canal-cablu-jgheab-60-x-40-mm-cu-capac-2-m-alb-pvc-ignifugat/p/1039846"
+  },
+  {
+   "nume": "Dedeman WDK",
+   "url": "https://www.dedeman.ro/ro/canal-cablu-wdk-6191134-40-x-60-mm-alb/p/1003102"
+  }
+ ],
+ "p035": [
+  {
+   "nume": "Dedeman WDK",
+   "url": "https://www.dedeman.ro/ro/cot-interior-wdk-6191959-40-x-60-mm-alb/p/1014243"
+  }
+ ],
+ "p036": [
+  {
+   "nume": "Dedeman WDK",
+   "url": "https://www.dedeman.ro/ro/cot-exterior-wdk-6192254-40-x-60-mm-alb/p/1014244"
+  }
+ ],
+ "p037": [
+  {
+   "nume": "Dedeman WDK",
+   "url": "https://www.dedeman.ro/ro/cot-plan-wdk-6192858-40-x-60-mm-alb/p/1014242"
+  }
+ ],
+ "p038": [
+  {
+   "nume": "Dedeman WDK",
+   "url": "https://www.dedeman.ro/ro/piesa-capat-wdk-6193226-40-x-60-mm-alb/p/1014245"
   }
  ],
  "p039": [
   {
    "nume": "Dedeman",
    "url": "https://www.dedeman.ro/ro/diblu-universal-din-polipropilena-sea-cu-surub-cap-inecat-8-x-80-mm-100-bucati/p/1083297"
+  },
+  {
+   "nume": "Dedeman Fischer SXR (buc × 100)",
+   "url": "https://www.dedeman.ro/ro/diblu-universal-din-nylon-fischer-sxr-8-x-80-mm/p/1033256",
+   "factor": 100
+  },
+  {
+   "nume": "Ethercom Klimas (buc × 100)",
+   "url": "https://ethercom.ro/dibluri/8992-diblu-12mm-8mm-80mm.html",
+   "factor": 100
+  }
+ ],
+ "p040": [
+  {
+   "nume": "Dedeman GKM metalic (buc × 100)",
+   "url": "https://www.dedeman.ro/ro/diblu-metalic-pentru-gips-carton-gkm-24556/p/6000875",
+   "factor": 100
   }
  ],
  "p042": [
   {
    "nume": "Dedeman",
    "url": "https://www.dedeman.ro/ro/banda-zimtata-friulsider-36300z251000c-verde-2-5-x-100-mm-100-bucati/p/1042328"
+  },
+  {
+   "nume": "Dedeman Lohuis",
+   "url": "https://www.dedeman.ro/ro/banda-zimtata-lohuis-alb-2-5-x-100-mm-100-bucati/p/1079450"
+  },
+  {
+   "nume": "Dedeman 146408",
+   "url": "https://www.dedeman.ro/ro/banda-zimtata-146408-protectie-uv-negru-2-5-x-100-mm-100-bucati/p/1026770"
   }
  ],
  "p043": [
   {
    "nume": "Fiberstore (1 L)",
    "url": "https://fiberstore.ro/331-alcool-izopropilic-1-l.html"
+  },
+  {
+   "nume": "Dedeman Kynita 99,9% (0,9 L)",
+   "url": "https://www.dedeman.ro/ro/alcool-izopropilic-kynita-concentratie-99-9-0-9-l/p/7072043"
+  }
+ ],
+ "p044": [
+  {
+   "nume": "ITConex (100 buc)",
+   "url": "https://itconex.ro/ro/produse/133-servetele-uscate-pentru-curatare-fibra-optica-pachet-de-100-buc.html"
+  },
+  {
+   "nume": "Fiberstore",
+   "url": "https://fiberstore.ro/scule-si-echipamente/aparate-de-testare-unelte-accesorii/servetele-pentru-fibra-optica/"
   }
  ],
  "p045": [
@@ -152,6 +363,34 @@
    "nume": "SMD Plus (set 24 buc)",
    "url": "https://smd-plus.ro/conectica-fibra-optica/1672-tub-termocontractabil-protectie-sudura-60mm.html",
    "factor": 4.1667
+  },
+  {
+   "nume": "Ethercom",
+   "url": "https://ethercom.ro/accesorii-pentru-sudare-fibre-optice/10567-tub-termocontractabil-60mm-100-buc.html"
+  },
+  {
+   "nume": "Ethercom PPRC",
+   "url": "https://ethercom.ro/accesorii-pentru-sudare-fibre-optice/16299-tub-termocontractabil-pprc-60-100-buc.html"
+  },
+  {
+   "nume": "Mondo Plast (buc × 100)",
+   "url": "https://www.mondoplast.ro/Tuburi-termoretractabile-60mm-pentru-protectie-suduri-optice-Braun-Group-TubTermo-60-pg_ft-5446",
+   "factor": 100
+  }
+ ],
+ "p046": [
+  {
+   "nume": "Fiberstore",
+   "url": "https://fiberstore.ro/scule-si-echipamente/consumabile/tub-termoretractabil-protectie-suduri-40-mm/"
+  },
+  {
+   "nume": "Ethercom",
+   "url": "https://ethercom.ro/accesorii-pentru-sudare-fibre-optice/10566-tub-termocontractabil-40mm-100-buc.html"
+  },
+  {
+   "nume": "Mondo Plast (buc × 100)",
+   "url": "https://www.mondoplast.ro/Tuburi-termoretractabile-40-45mm-pentru-protectie-sudura-fibra-optica-Braun-Group-TubTermo-40-45-pg_ft-1265",
+   "factor": 100
   }
  ],
  "p047": [
@@ -162,18 +401,40 @@
   {
    "nume": "Fiberstore",
    "url": "https://fiberstore.ro/1006-aer-comprimat-tip-pistol-400ml.html"
+  },
+  {
+   "nume": "Fiberstore (600 ml)",
+   "url": "https://fiberstore.ro/scule-si-echipamente/consumabile/aer-comprimat-600ml/"
+  },
+  {
+   "nume": "Ethercom (600 ml)",
+   "url": "https://ethercom.ro/sprayuri-si-accesorii-curatare/37587-gaz-comprimat-compressed-air-600-spray-600-ml-ag-termopasty.html"
   }
  ],
  "p048": [
   {
    "nume": "Dedeman (20 m)",
    "url": "https://www.dedeman.ro/ro/banda-izolatoare-total-plast-negru-20-m-x-19-mm-x-0-15-mm/p/1081468"
+  },
+  {
+   "nume": "Fiberstore (20 m)",
+   "url": "https://fiberstore.ro/scule-si-echipamente/consumabile/banda-izolatoare-20m-neagra/"
   }
  ],
  "p049": [
   {
    "nume": "Dedeman (Tesa, 50 m; preț/m × 50)",
    "url": "https://www.dedeman.ro/ro/banda-mascare-tesa-4325-alb-interior-50-m-x-38-mm/p/5001460",
+   "factor": 50
+  },
+  {
+   "nume": "Dedeman Anker (preț/m × 45)",
+   "url": "https://www.dedeman.ro/ro/banda-mascare-anker-alb-interior/-exterior-38-mm-x-45-m/p/5003792",
+   "factor": 45
+  },
+  {
+   "nume": "Dedeman Baudeman (preț/m × 50)",
+   "url": "https://www.dedeman.ro/ro/banda-mascare-baudeman-4359-43-alb-interior-50-m-x-38-mm/p/5010275",
    "factor": 50
   }
  ]

@@ -71,7 +71,7 @@ function packLabel(qty, unit, has) {
   if (!has) return '—';
   var qs = grp(qty, qty % 1 ? 2 : 0).replace(/,00$/, '');
   if (unit === 'buc') return qty === 1 ? '1 buc' : 'set ' + qs + ' buc';
-  if (unit === 'm') return 'rolă ' + qs + ' m';
+  if (unit === 'm') return qty === 1 ? '1 m' : 'rolă ' + qs + ' m';
   if (unit === 'l') return 'flacon ' + qs + ' l';
   if (unit === 'coală') return 'set ' + qs + ' coli';
   return qs + ' ' + unit;
@@ -79,7 +79,7 @@ function packLabel(qty, unit, has) {
 function packType(qty, unit, has) {
   if (!has) return 'buc';
   if (unit === 'l' || unit === 'ml') return 'volum';
-  if (unit === 'm') return 'rolă';
+  if (unit === 'm') return qty > 1 ? 'rolă' : 'buc';
   return qty > 1 ? 'set' : 'buc';
 }
 
@@ -549,7 +549,7 @@ function init() {
   try { var u = JSON.parse(ls(LSUI) || '{}'); S.dark = !!u.dark; S.vat = !!u.vat; } catch (e) {}
   loadLocal();
   function get(path) { return fetch(path, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(path + ' ' + r.status); return r.json(); }); }
-  Promise.all([get('data/produse.json?v=4'), get('data/preturi.json?t=' + Date.now())]).then(function (res) {
+  Promise.all([get('data/produse.json?v=5'), get('data/preturi.json?t=' + Date.now())]).then(function (res) {
     DATA.produse = res[0].produse || [];
     var p = res[1] || {};
     DATA.preturi = { actualizat: p.actualizat || null, surse: p.surse || {}, variatie: p.variatie || {} };

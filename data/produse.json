@@ -55,15 +55,15 @@
    "id": "p008",
    "categorie": "Fibră optică: cabluri și echipamente",
    "denumire": "Cablu Fibră optică Multi Mode, 48 fibre (24 perechi), OM4, interior, LSZH",
-   "ambalaj_cantitate": null,
-   "ambalaj_unitate": null
+   "ambalaj_cantitate": 1,
+   "ambalaj_unitate": "m"
   },
   {
    "id": "p009",
    "categorie": "Fibră optică: cabluri și echipamente",
    "denumire": "Cablu Fibră optică Multi Mode, 4 fibre (2 perechi), OM4, interior, LSZH",
-   "ambalaj_cantitate": null,
-   "ambalaj_unitate": null
+   "ambalaj_cantitate": 1,
+   "ambalaj_unitate": "m"
   },
   {
    "id": "p010",
