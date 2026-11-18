@@ -1,0 +1,1571 @@
+{
+ "magazine": {
+  "Ethercom": [
+   "2 sitemap-uri, 0 adrese",
+   "0 pagini de produs, 0 candidați deschiși"
+  ],
+  "SMD Plus": [
+   "sitemap https://smd-plus.ro/sitemap.xml: HTTPError 404 Client Error: Not Found for url: https://smd-plus.ro/sit",
+   "sitemap https://smd-plus.ro/sitemap_index.xml: HTTPError 404 Client Error: Not Found for url: https://smd-plus.ro/sit",
+   "sitemap https://smd-plus.ro/1_index_sitemap.xml: HTTPError 404 Client Error: Not Found for url: https://smd-plus.ro/1_i",
+   "sitemap https://smd-plus.ro/wp-sitemap.xml: HTTPError 404 Client Error: Not Found for url: https://smd-plus.ro/wp-",
+   "4 sitemap-uri, 0 adrese",
+   "0 pagini de produs, 0 candidați deschiși"
+  ],
+  "Mondo Plast": [
+   "sitemap https://www.mondoplast.ro/sitemap.xml: HTTPError 404 Client Error: Not Found for url: https://www.mondoplast.",
+   "sitemap https://www.mondoplast.ro/sitemap_index.xml: HTTPError 404 Client Error: Not Found for url: https://www.mondoplast.",
+   "sitemap https://www.mondoplast.ro/1_index_sitemap.xml: HTTPError 404 Client Error: Not Found for url: https://www.mondoplast.",
+   "sitemap https://www.mondoplast.ro/wp-sitemap.xml: HTTPError 404 Client Error: Not Found for url: https://www.mondoplast.",
+   "4 sitemap-uri, 0 adrese",
+   "0 pagini de produs, 0 candidați deschiși"
+  ],
+  "ITConex": [
+   "sitemap https://itconex.ro/sitemap.xml: HTTPError 404 Client Error: Not Found for url: https://itconex.ro/site",
+   "sitemap https://itconex.ro/sitemap_index.xml: HTTPError 404 Client Error: Not Found for url: https://itconex.ro/site",
+   "sitemap https://itconex.ro/wp-sitemap.xml: HTTPError 404 Client Error: Not Found for url: https://itconex.ro/wp-s",
+   "6 sitemap-uri, 0 adrese",
+   "0 pagini de produs, 0 candidați deschiși"
+  ],
+  "Starbit": [
+   "3 sitemap-uri, 218 adrese",
+   "218 pagini de produs, 0 candidați deschiși"
+  ],
+  "Fiberstore": [
+   "7 sitemap-uri, 2262 adrese",
+   "1899 pagini de produs, 56 candidați deschiși"
+  ],
+  "Dedeman": [
+   "27 sitemap-uri, 133528 adrese",
+   "133528 pagini de produs, 123 candidați deschiși"
+  ]
+ },
+ "candidati": {
+  "p001": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/rack-de-podea-42u-800x1000-negru/",
+    "potriviri": 9,
+    "titlu": "Rack de podea 42u 800x1000 negru | Fiberstore.ro",
+    "pret": 2479.34,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/cabinet-rack-42u-600x1000-de-podea-negru/",
+    "potriviri": 9,
+    "titlu": "Cabinet rack 42u 600x1000 de podea negru | Fiberstore.ro",
+    "pret": 2024.79,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/cabinete-amp-rack-server-19-de-exterior/cabinet-rack-42u-600x800-de-exterior/",
+    "potriviri": 9,
+    "titlu": "Cabinet Rack 42u 600x800 De Exterior | Fiberstore.ro",
+    "pret": 3801.65,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/cabinete-amp-rack-server-19-de-interior/cabinet-rack-42u-600x800-de-podea-negru/",
+    "potriviri": 9,
+    "titlu": "Cabinet rack 42u 600x800 de podea Negru | Fiberstore.ro",
+    "pret": 1652.07,
+    "titlu_potrivit": true
+   }
+  ],
+  "p002": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/rack-9u-600x450-negru-hondao-montaj-pe-perete/",
+    "potriviri": 10,
+    "titlu": "Rack 9U 600x450 Negru Hondao Montaj | Fiberstore.ro",
+    "pret": 231.41,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/rack-9u-600x600-negru-hondao-montaj-pe-perete/",
+    "potriviri": 10,
+    "titlu": "Rack 9U 600x600 Negru Hondao Montaj | Fiberstore.ro",
+    "pret": 326.45,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/cabinete-amp-rack-server-19-de-interior/cabinet-rack-9u-600x450-gri-montaj-pe-perete/",
+    "potriviri": 10,
+    "titlu": "Cabinet rack 9u 600x450 Gri, montaj | Fiberstore.ro",
+    "pret": 329.75,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/cabinete-amp-rack-server-19-de-interior/rack-9u-600x450-negru-hondao-montaj-pe-perete/",
+    "potriviri": 10,
+    "titlu": "Rack 9U 600x450 Negru Hondao Montaj | Fiberstore.ro",
+    "pret": 231.41,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/cabinet-metalic/-rack-perete-asytech-asy-9u-6045w-9u-600-x-450-x-501-mm-usa-sticla-securizata-negru/p/1081085",
+    "potriviri": 2,
+    "titlu": "Cabinet metalic / rack perete Asytech ASY-9U-6045W, 9U, 600 x 450 x 501 mm, usa sticla securizata, negru | Dedeman",
+    "pret": 268.6,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/cabinet-metalic/-rack-perete-asytech-asy-9u-6045wl-9u-600-x-450-x-501-mm-usa-sticla-securizata-negru-albastru/p/1084324",
+    "potriviri": 2,
+    "titlu": "Cabinet metalic / rack perete Asytech ASY-9U-6045WL, 9U, 600 x 450 x 501 mm, usa sticla securizata, negru + albastru | Dedeman",
+    "pret": 205.79,
+    "titlu_potrivit": true
+   }
+  ],
+  "p003": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/pdu-prize-rack/priza-rack-pdu-8-porturi-19-inch-1u-cu-intrerupator/",
+    "potriviri": 3,
+    "titlu": "Priza rack PDU 8 porturi 19 inch, 1U | Fiberstore.ro",
+    "pret": 86.78,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/pdu-prize-rack/priza-rack-pdu-8-porturi-cu-intrerupator-si-mufa-pentru-ups/",
+    "potriviri": 3,
+    "titlu": "Priza rack PDU 8 porturi cu intrerupator | Fiberstore.ro",
+    "pret": 76.03,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/tester-priza-eu-uni-t-ut07b-led-detectare-8-conditii-de-cablare/p/1119685",
+    "potriviri": 3,
+    "titlu": "Tester priza EU UNI-T UT07B, LED, detectare 8 conditii de cablare | Dedeman",
+    "pret": 51.16,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/accesorii-diverse-pentru-rack/priza-rack-pdu-8-porturi-19-inch-cu-intrerupator-si-siguranta-telcoline/",
+    "potriviri": 3,
+    "titlu": "Priza rack PDU 8 porturi 19 inch | Fiberstore.ro",
+    "pret": 86.78,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/cadru-aparent-gewiss-gw27023-8-module-ip40-gri-pentru-priza/-intrerupator/p/1057198",
+    "potriviri": 3,
+    "titlu": "Cadru aparent Gewiss GW27023, 8 module, IP40, gri, pentru priza / intrerupator | Dedeman",
+    "pret": 17.66,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/prelungitor-cu-protectie-asytech-asy-pdu-8-8-prize-shuko-2-m-pentru-instalare-in-rack-uri-de-19-inch/-1u-intrerupator-negru/p/1081086",
+    "potriviri": 3,
+    "titlu": "Prelungitor cu protectie Asytech ASY-PDU-8, 8 prize shuko, 2 m, pentru instalare in rack-uri de 19 inch / 1U, intrerupator, negru | Dedeman",
+    "pret": 72.49,
+    "titlu_potrivit": true
+   }
+  ],
+  "p004": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/organizatoare-de-cabluri/organizator-cabluri-1u-negru-cu-capac-din-metal/",
+    "potriviri": 2,
+    "titlu": "Organizator cabluri 1U negru cu capac | Fiberstore.ro",
+    "pret": 20.66,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/organizatoare-de-cabluri/organizator-cabluri-1u-din-metal-cu-24-iesiri-telix-omr24/",
+    "potriviri": 2,
+    "titlu": "Organizator Cabluri 1U din metal cu 24 | Fiberstore.ro",
+    "pret": 20.66,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/organizator-knox-no60-200-x-160-x-35-mm/p/1045195",
+    "potriviri": 15,
+    "titlu": "Organizator Knox NO60, 200 x 160 x 35 mm | Dedeman",
+    "pret": 7.02,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/organizator-kistenberg-knu20-198-x-117-x-45-mm/p/1045178",
+    "potriviri": 15,
+    "titlu": "Organizator Kistenberg KNU20, 198 x 117 x 45 mm | Dedeman",
+    "pret": 3.55,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/organizator-kistenberg-knu30-295-x-195-x-85-mm/p/1045180",
+    "potriviri": 15,
+    "titlu": "Organizator Kistenberg KNU30, 295 x 195 x 85 mm | Dedeman",
+    "pret": 9.66,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/organizator-kistenberg-kkno2010-180-x-90-x-35-mm/p/1045194",
+    "potriviri": 15,
+    "titlu": "Organizator Kistenberg KKNO2010, 180 x 90 x 35 mm | Dedeman",
+    "pret": 4.95,
+    "titlu_potrivit": false
+   }
+  ],
+  "p005": [],
+  "p006": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/rack-4u-600x450-negru-hondao-montaj-pe-perete/",
+    "potriviri": 33,
+    "titlu": "Rack 4U 600x450 Negru Hondao Montaj | Fiberstore.ro",
+    "pret": 190.08,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/rack-6u-600x450-negru-hondao-montaj-pe-perete/",
+    "potriviri": 33,
+    "titlu": "Rack 6U 600x450 Negru Hondao Montaj | Fiberstore.ro",
+    "pret": 206.61,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/rack-6u-600x600-negru-hondao-montaj-pe-perete/",
+    "potriviri": 33,
+    "titlu": "Rack 6U 600x600 Negru Hondao Montaj | Fiberstore.ro",
+    "pret": 235.54,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/cabinete-rack-si-accesorii/rack-9u-600x450-negru-hondao-montaj-pe-perete/",
+    "potriviri": 33,
+    "titlu": "Rack 9U 600x450 Negru Hondao Montaj | Fiberstore.ro",
+    "pret": 231.41,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/sina-magnetica-klausen-track-light-kl182002-100-cm-ip20-alb-montaj-aparent/p/1079495",
+    "potriviri": 7,
+    "titlu": "Sina magnetica Klausen Track Light KL182002, 100 cm, IP20, alb, montaj aparent | Dedeman",
+    "pret": 45.93,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/sina-magnetica-klausen-track-light-kl182003-200-cm-ip20-alb-montaj-aparent/p/1079496",
+    "potriviri": 7,
+    "titlu": "Sina magnetica Klausen Track Light KL182003, 200 cm, IP20, alb, montaj aparent | Dedeman",
+    "pret": 91.74,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/sina-magnetica-klausen-track-light-kl182000-100-cm-ip20-negru-montaj-aparent/p/1079493",
+    "potriviri": 7,
+    "titlu": "Sina magnetica Klausen Track Light KL182000, 100 cm, IP20, negru, montaj aparent | Dedeman",
+    "pret": 45.93,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/sina-magnetica-klausen-track-light-kl182001-200-cm-ip20-negru-montaj-aparent/p/1079494",
+    "potriviri": 7,
+    "titlu": "Sina magnetica Klausen Track Light KL182001, 200 cm, IP20, negru, montaj aparent | Dedeman",
+    "pret": 91.74,
+    "titlu_potrivit": true
+   }
+  ],
+  "p007": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/cutii-de-jonctiune/cutii-de-jonctiune-ftth/mini-cutie-protectie-adaptor-sc-simplex-lc-duplex-1-2f-ip68/",
+    "potriviri": 4,
+    "titlu": "Mini Cutie protectie adaptor SC simplex/LC duplex , 1-2F IP68 | Fiberstore.ro",
+    "pret": 4.55,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/cutii-de-jonctiune/cutii-metalice/cutie-distributie-pentru-sina-din-echipat-cu-6-adaptori-lc-duplex-si-12-pigtailuri-carcasa-plastic/",
+    "potriviri": 4,
+    "titlu": "Cutie distributie pentru sina DIN echipat 12 | Fiberstore.ro",
+    "pret": 74.38,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/cutii-de-jonctiune/cutii-de-jonctiune-ftth/cutie-distributie-pentru-sina-din-echipat-cu-6-adaptori-lc-duplex-si-12-pigtailuri-carcasa-aluminiu/",
+    "potriviri": 4,
+    "titlu": "Cutie distributie pentru sina DIN echipat 12 | Fiberstore.ro",
+    "pret": 90.91,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/cutii-de-jonctiune/cutii-metalice/cutie-distributie-pentru-sina-din-echipat-cu-6-adaptori-lc-duplex-si-12-pigtailuri-multimode-om3-carcasa-plastic/",
+    "potriviri": 4,
+    "titlu": "Cutie distributie pentru sina DIN echipat OM3",
+    "pret": 90.91,
+    "titlu_potrivit": false
+   }
+  ],
+  "p008": [],
+  "p009": [],
+  "p010": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/retelistica-cabluri/echipamente-de-retea-active/switchuri-poe/switch-poe-24fe-2ge-1sfp-uplink/",
+    "potriviri": 6,
+    "titlu": "Switch POE 24FE + 2GE + 1SFP uplink | Fiberstore.ro",
+    "pret": 826.45,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/retelistica-cabluri/echipamente-de-retea-active/switchuri-poe/switch-poe-24ge-2ge-1sfp-gigabit/",
+    "potriviri": 6,
+    "titlu": "Switch POE 24GE + 2GE + 1SFP Gigabit | Fiberstore.ro",
+    "pret": 1239.67,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/retelistica-cabluri/mikrotik-amp-ubiquity/switch-mikrotik-crs328-4c-20s-4srm-24x-sfp-4x-sfp-4x-rj45-1000mbs/",
+    "potriviri": 6,
+    "titlu": "Switch MikroTik CRS328-4C-20S-4S+RM 24x | Fiberstore.ro",
+    "pret": 2066.12,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/retelistica-cabluri/echipamente-de-retea-active/switchuri/switch-24-porturi-gigabit-4-porturi-sfp-10gb-cu-management-l3/",
+    "potriviri": 6,
+    "titlu": "Switch 24 Porturi Gigabit + 4 Porturi SFP+ | Fiberstore.ro",
+    "pret": 1198.35,
+    "titlu_potrivit": true
+   }
+  ],
+  "p011": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/cutii-de-jonctiune/patchpanel-fibra-optica/patchpanel-odf-24-porturi-lcupc-48-port/",
+    "potriviri": 4,
+    "titlu": "Patchpanel ODF 24 Porturi LC/UPC (48 port) | Fiberstore.ro",
+    "pret": 239.66,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/cutii-de-jonctiune/patchpanel-fibra-optica/patch-panel-odf-24-lcupc-duplex-multimode-om3-48-fibre/",
+    "potriviri": 4,
+    "titlu": "Patch Panel ODF 24 LC/UPC duplex multimode | Fiberstore.ro",
+    "pret": 322.31,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/cutii-de-jonctiune/patchpanel-fibra-optica/patch-panel-odf-12-lcupc-duplex-multimode-om3-24-fibre/",
+    "potriviri": 4,
+    "titlu": "Patch Panel ODF 12 LC/UPC duplex multimode | Fiberstore.ro",
+    "pret": 239.67,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/cutii-de-jonctiune/patchpanel-fibra-optica/patchpanel-12-porturi-lcupc-duplex-complet-echipat-24-fibre/",
+    "potriviri": 4,
+    "titlu": "Patchpanel 12 porturi LC/UPC duplex complet | Fiberstore.ro",
+    "pret": 173.8,
+    "titlu_potrivit": false
+   }
+  ],
+  "p012": [],
+  "p013": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-lcupc-scupc-mm-om3-duplex-3-0mm-1m/",
+    "potriviri": 3,
+    "titlu": "Patchcord LC/UPC-SC/UPC MM OM3 duplex 3.0mm | Fiberstore.ro",
+    "pret": 20.66,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-scupc-lcupc-mm-om4-duplex-3-0mm-1m/",
+    "potriviri": 3,
+    "titlu": "Patchcord SC/UPC-LC/UPC MM OM4 duplex 3.0mm | Fiberstore.ro",
+    "pret": 16.53,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-multi-mode-lcupc-lcupc-om3-duplex-3mm-1-m/",
+    "potriviri": 3,
+    "titlu": "Patchcord Multi Mode LC/UPC-LC/UPC, OM3 | Fiberstore.ro",
+    "pret": 16.53,
+    "titlu_potrivit": false
+   }
+  ],
+  "p014": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-lcupc-lcupc-mm-om3-duplex-3-0mm-2m/",
+    "potriviri": 5,
+    "titlu": "Patchcord LC/UPC-LC/UPC MM OM3 duplex 3.0mm | Fiberstore.ro",
+    "pret": 16.53,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-lcupc-scupc-mm-om3-duplex-3-0mm-2m/",
+    "potriviri": 5,
+    "titlu": "Patchcord LC/UPC-SC/UPC MM OM3 duplex 3.0mm | Fiberstore.ro",
+    "pret": 12.4,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-scupc-lcupc-mm-om4-duplex-3-0mm-2m/",
+    "potriviri": 5,
+    "titlu": "Patchcord SC/UPC-LC/UPC MM OM4 duplex 3.0mm | Fiberstore.ro",
+    "pret": 17.36,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-lcupc-lcupc-mm-om4-duplex-3-0mm-2m/",
+    "potriviri": 5,
+    "titlu": "Patchcord LC/UPC-LC/UPC MM OM4 duplex 3.0mm | Fiberstore.ro",
+    "pret": 16.53,
+    "titlu_potrivit": false
+   }
+  ],
+  "p015": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-lcupc-lcupc-mm-om3-duplex-3-0mm-3m/",
+    "potriviri": 4,
+    "titlu": "Patchcord LC/UPC-LC/UPC MM OM3 duplex 3.0mm | Fiberstore.ro",
+    "pret": 28.93,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-lcupc-scupc-mm-om3-duplex-3-0mm-3m/",
+    "potriviri": 4,
+    "titlu": "Patchcord LC/UPC-SC/UPC MM OM3 duplex 3.0mm | Fiberstore.ro",
+    "pret": 23.14,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-scupc-lcupc-mm-om4-duplex-3-0mm-3m/",
+    "potriviri": 4,
+    "titlu": "Patchcord SC/UPC-LC/UPC MM OM4 duplex 3.0mm | Fiberstore.ro",
+    "pret": 19.01,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-lcupc-lcupc-mm-50125-duplex-3-0mm-3m/",
+    "potriviri": 4,
+    "titlu": "Patchcord LC/UPC-LC/UPC MM 50/125 duplex | Fiberstore.ro",
+    "pret": 20.66,
+    "titlu_potrivit": false
+   }
+  ],
+  "p016": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-sc-upc-lc-upc-mm-om4-duplex-3-0mm-lszh-10m/",
+    "potriviri": 2,
+    "titlu": "Patchcord Sc/upc-lc/upc MM OM4 Duplex 3.0MM | Fiberstore.ro",
+    "pret": 41.32,
+    "titlu_potrivit": false
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-lc-upc-sc-upc-mm-om3-duplex-lszh-3-0mm-10m-telix/",
+    "potriviri": 2,
+    "titlu": "Patchcord Lc/upc-sc/upc MM OM3 Duplex LSZH | Fiberstore.ro",
+    "pret": 24.79,
+    "titlu_potrivit": false
+   }
+  ],
+  "p017": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/fibra-optica-echipamente-si-accesorii/patchcord-fibra-optica/patchcord-optic-3mm/patchcord-sc-upc-lc-upc-mm-om4-duplex-3-0mm-lszh-30m/",
+    "potriviri": 1,
+    "titlu": "Patchcord Sc/upc-lc/upc MM OM4 Duplex 3.0MM | Fiberstore.ro",
+    "pret": 107.44,
+    "titlu_potrivit": false
+   }
+  ],
+  "p018": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/jgheab-metalic-mks-fs-6053548-otel-zincat-1-x-35-x-100-mm/p/1002036",
+    "potriviri": 3,
+    "titlu": "Jgheab metalic MKS FS 6053548, otel zincat, 1 x 35 x 100 mm | Dedeman",
+    "pret": 64.62,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/jgheab-metalic-rksm-fs-6047417-otel-zincat-0-75-x-35-x-100-mm/p/1001643",
+    "potriviri": 3,
+    "titlu": "Jgheab metalic RKSM FS 6047417, otel zincat, 0.75 x 35 x 100 mm | Dedeman",
+    "pret": 40.5,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/jgheab-metalic-metallodomi-12-301-otel-galvanizat-0-75-x-35-x-100-mm/p/1011771",
+    "potriviri": 3,
+    "titlu": "Jgheab metalic Metallodomi 12-301, otel galvanizat, 0.75 x 35 x 100 mm | Dedeman",
+    "pret": 16.95,
+    "titlu_potrivit": true
+   }
+  ],
+  "p019": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/sina-perdea-tavan-u-metal-alb-210-cm/p/8001037",
+    "potriviri": 276,
+    "titlu": "Sina perdea tavan U, metal, alb, 210 cm | Dedeman",
+    "pret": 31.4,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/consola-tavan-luxor-metal-inox-d-35-mm/p/8015330",
+    "potriviri": 276,
+    "titlu": "Consola tavan Luxor, metal, inox, D 35 mm | Dedeman",
+    "pret": 21.48,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/consola-tavan-33180dl-inox-3-6-cm-20-mm/p/8035855",
+    "potriviri": 276,
+    "titlu": "Consola tavan, 33180DL, inox, 3.6 cm, 20 mm | Dedeman",
+    "pret": 23.96,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/sina-perdea-tavan-u-883-metal-alb-130-cm/p/8001033",
+    "potriviri": 276,
+    "titlu": "Sina perdea tavan U 883, metal, alb, 130 cm | Dedeman",
+    "pret": 20.66,
+    "titlu_potrivit": true
+   }
+  ],
+  "p020": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/tija-filetata-m8-3141128-otel-zincat-1000-mm/p/1003984",
+    "potriviri": 6,
+    "titlu": "Tija filetata M8 3141128, otel zincat, 1000 mm | Dedeman",
+    "pret": 6.26,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/tija-filetata-din-otel-zincat-alb-din-975-diametrul-m8-2000-mm/p/6003297",
+    "potriviri": 6,
+    "titlu": "Tija filetata, din otel zincat alb, DIN 975, diametrul M8, 2000 mm | Dedeman",
+    "pret": 14.33,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/tija-filetata-din-otel-zincat-alb-din-975-diametrul-m8-1000-mm/p/6003654",
+    "potriviri": 6,
+    "titlu": "Tija filetata, din otel zincat alb, DIN 975, diametrul M8, 1000 mm | Dedeman",
+    "pret": 8.1,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/diblu-pentru-tija-filetata-m8-din-nylon-fischer-fgd-12-x-35-mm/p/1051258",
+    "potriviri": 6,
+    "titlu": "Diblu pentru tija filetata M8, din nylon, Fischer FGD, 12 x 35 mm | Dedeman",
+    "pret": 0.87,
+    "titlu_potrivit": true
+   }
+  ],
+  "p021": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/conexpand-12-x-10-mm-cu-surub-m8/p/7007057",
+    "potriviri": 22,
+    "titlu": "Conexpand 12 x 10 mm, cu surub M8 | Dedeman",
+    "pret": 12.02,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/conexpand-12-x-50-mm-cu-surub-m8/p/7007058",
+    "potriviri": 22,
+    "titlu": "Conexpand 12 x 50 mm, cu surub M8 | Dedeman",
+    "pret": 15.47,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/conexpand-14-x-50-mm-cu-surub-m8/p/7007071",
+    "potriviri": 22,
+    "titlu": "Conexpand 14 x 50 mm, cu surub M8 | Dedeman",
+    "pret": 6.82,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/conexpand-12-x-70-mm-cu-surub-m8/p/7007078",
+    "potriviri": 22,
+    "titlu": "Conexpand 12 x 70 mm, cu surub M8 | Dedeman",
+    "pret": 3.36,
+    "titlu_potrivit": true
+   }
+  ],
+  "p022": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/piulita-hexagonala-din-otel-zincat-alb-din-934-m8/p/6000210",
+    "potriviri": 7,
+    "titlu": "Piulita hexagonala, din otel, zincat alb, DIN 934, M8 | Dedeman",
+    "pret": 0.16,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/piulita-hexagonala-infundata-din-otel-din-1587-6-m8/p/1020731",
+    "potriviri": 7,
+    "titlu": "Piulita hexagonala infundata, din otel, DIN 1587-6, M8 | Dedeman",
+    "pret": 0.47,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/piulita-hexagonala-cu-autoblocare-din-otel-din-985-8-m8/p/6006482",
+    "potriviri": 7,
+    "titlu": "Piulita hexagonala cu autoblocare, din otel, DIN 985-8, M8 | Dedeman",
+    "pret": 0.24,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/piulita-hexagonala-cu-autoblocare-din-otel-din-6923-8-m8/p/6010065",
+    "potriviri": 7,
+    "titlu": "Piulita hexagonala cu autoblocare, din otel, DIN 6923-8, M8 | Dedeman",
+    "pret": 0.31,
+    "titlu_potrivit": true
+   }
+  ],
+  "p023": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/piulita-cilindrica-de-cuplare-din-otel-m8-x-30-mm-4-bucati/p/6014506",
+    "potriviri": 5,
+    "titlu": "Piulita cilindrica de cuplare, din otel, M8 x 30 mm, 4 bucati | Dedeman",
+    "pret": 4.66,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/piulita-hexagonala-de-cuplare-din-otel-din6334-6-m8-x-24-mm/p/6004183",
+    "potriviri": 5,
+    "titlu": "Piulita hexagonala de cuplare, din otel, DIN6334-6, M8 x 24 mm | Dedeman",
+    "pret": 0.9,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/piulita-hexagonala-de-cuplare-din-otel-fischer-79690-m8-x-30-mm/p/1033452",
+    "potriviri": 5,
+    "titlu": "Piulita hexagonala de cuplare, din otel, Fischer 79690, M8 x 30 mm | Dedeman",
+    "pret": 1.17,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/piulita-hexagonala-de-cuplare-din-otel-din6334-6-m8-x-24-mm-2-bucati/p/6014503",
+    "potriviri": 5,
+    "titlu": "Piulita hexagonala de cuplare, din otel, DIN6334-6, M8 x 24 mm, 2 bucati | Dedeman",
+    "pret": 3.31,
+    "titlu_potrivit": true
+   }
+  ],
+  "p024": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/surub-cap-rotund-6406189-m6-x-16-mm/p/1026768",
+    "potriviri": 12,
+    "titlu": "Surub cap rotund 6406189, M6 x 16 mm | Dedeman",
+    "pret": 1.71,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/surub-plat-cu-piulita-6406130-otel-m6-x-12-mm/p/1015603",
+    "potriviri": 12,
+    "titlu": "Surub plat cu piulita 6406130, otel, M6 x 12 mm | Dedeman",
+    "pret": 0.68,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/surub-semirotund-cu-piulita-6406122-otel-m6-x-12-mm/p/1001724",
+    "potriviri": 12,
+    "titlu": "Surub semirotund cu piulita 6406122, otel, M6 x 12 mm | Dedeman",
+    "pret": 0.94,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/surub-cap-rotund-frsb-6-x-20-f-6406203-otel-m6-x-20-mm/p/1025284",
+    "potriviri": 12,
+    "titlu": "Surub cap rotund FRSB 6 x 20 F 6406203, otel, M6 x 20 mm | Dedeman",
+    "pret": 1.02,
+    "titlu_potrivit": true
+   }
+  ],
+  "p025": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/surub-cu-piulita-m8-40-bucati/p/1030464",
+    "potriviri": 11,
+    "titlu": "Surub cu piulita M8, 40 bucati | Dedeman",
+    "pret": 28.26,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/surub-t-pentru-fixare-gard-35-mm-cu-piulita-m-8-x-80-mm-set-2-bucati/p/1055339",
+    "potriviri": 11,
+    "titlu": "Surub T, pentru fixare gard, 35 mm, cu piulita, M 8 x 80 mm, set 2 bucati | Dedeman",
+    "pret": 7.6,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/surub-cu-filet-metric-cu-cap-bombat-torbant-zincat-alb-diametru-cap-20-65-mm-m8-x-30-mm/p/1007279",
+    "potriviri": 11,
+    "titlu": "Surub cu filet metric, cu cap bombat torbant, zincat alb, diametru cap 20.65 mm, M8 X 30 mm | Dedeman",
+    "pret": 0.61,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/surub-cu-filet-metric-cu-cap-bombat-torbant-zincat-alb-diametru-cap-20-65-mm-m8-x-90-mm/p/1017305",
+    "potriviri": 11,
+    "titlu": "Surub cu filet metric, cu cap bombat torbant, zincat alb, diametru cap 20.65 mm, M8 x 90 mm | Dedeman",
+    "pret": 1.18,
+    "titlu_potrivit": true
+   }
+  ],
+  "p026": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/saiba-plata-din-otel-zincat-alb-din522c-m6-x-20-x-1-mm/p/1007323",
+    "potriviri": 5,
+    "titlu": "Saiba plata din otel zincat alb, DIN522C, M6 x 20 x 1 mm | Dedeman",
+    "pret": 0.12,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/saiba-plata-din-otel-zincat-alb-din522c-m6-x-24-x-1-2-mm/p/6006654",
+    "potriviri": 5,
+    "titlu": "Saiba plata din otel zincat alb, DIN522C, M6 x 24 x 1.2 mm | Dedeman",
+    "pret": 0.15,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/saiba-plata-din-otel-zincat-alb-din9021-m6-x-18-x-1-6-mm/p/1007411",
+    "potriviri": 5,
+    "titlu": "Saiba plata din otel zincat alb, DIN9021, M6 x 18 x 1.6 mm | Dedeman",
+    "pret": 0.14,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/saiba-plata-din-otel-zincat-alb-din125a-m6-x-12-x-1-6-mm/p/7003004",
+    "potriviri": 5,
+    "titlu": "Saiba plata din otel zincat alb, DIN125A, M6 x 12 x 1.6 mm | Dedeman",
+    "pret": 0.06,
+    "titlu_potrivit": true
+   }
+  ],
+  "p027": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/saiba-plata-din-otel-zincat-alb-din9021-m8-x-24-x-2-mm/p/6000770",
+    "potriviri": 4,
+    "titlu": "Saiba plata din otel zincat alb, DIN9021, M8 x 24 x 2 mm | Dedeman",
+    "pret": 0.4,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/saiba-plata-din-otel-zincat-alb-din522c-m8-x-24-x-1-5-mm/p/1007324",
+    "potriviri": 4,
+    "titlu": "Saiba plata din otel zincat alb, DIN522C, M8 x 24 x 1.5 mm | Dedeman",
+    "pret": 0.26,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/saiba-plata-din-otel-zincat-alb-din125a-m8-x-16-x-1-6-mm/p/7000281",
+    "potriviri": 4,
+    "titlu": "Saiba plata din otel zincat alb, DIN125A, M8 x 16 x 1.6 mm | Dedeman",
+    "pret": 0.1,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/saiba-plata-din-otel-zincat-alb-din522c-m8-x-20-x-1-25-mm/p/6013804",
+    "potriviri": 4,
+    "titlu": "Saiba plata din otel zincat alb, DIN522C, M8 x 20 x 1.25 mm | Dedeman",
+    "pret": 0.14,
+    "titlu_potrivit": true
+   }
+  ],
+  "p028": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/disc-taiere-inox-makita-a60u-125-x-22-23-x-1-mm/p/1071003",
+    "potriviri": 54,
+    "titlu": "Disc taiere inox, Makita A60U, 125 x 22.23 x 1 mm | Dedeman",
+    "pret": 5.87,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/disc-taiere-inox-makita-wa36r-125-x-22-23-x-1-mm/p/1070998",
+    "potriviri": 54,
+    "titlu": "Disc taiere inox, Makita WA36R, 125 x 22.23 x 1 mm | Dedeman",
+    "pret": 3.2,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/disc-debitare-metal-red-square-rq1251-125-x-22-2-x-1-mm/p/1024541",
+    "potriviri": 54,
+    "titlu": "Disc debitare metal, Red Square RQ1251, 125 x 22.2 x 1 mm | Dedeman",
+    "pret": 2.97,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/disc-debitare-aluminiu-makita-a60t-bf-125-x-22-23-x-1-mm/p/1070985",
+    "potriviri": 54,
+    "titlu": "Disc debitare aluminiu, Makita A60T-BF, 125 x 22.23 x 1 mm | Dedeman",
+    "pret": 6.51,
+    "titlu_potrivit": true
+   }
+  ],
+  "p029": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/canal-cablu-slitat-25-x-40-mm-2-m-gri/p/1042387",
+    "potriviri": 3,
+    "titlu": "Canal cablu slitat 25 x 40 mm, 2 m, gri | Dedeman",
+    "pret": 12.39,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/canal-cablu-wdk-6191061-25-x-40-mm-cu-capac-alb-pvc/p/1005055",
+    "potriviri": 3,
+    "titlu": "Canal cablu WDK 6191061, 25 x 40 mm, cu capac, alb, PVC | Dedeman",
+    "pret": 25.27,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/canal-cablu-jgheab-40-x-25-mm-cu-capac-2-m-alb-pvc-ignifugat/p/1039843",
+    "potriviri": 3,
+    "titlu": "Canal cablu (jgheab) 40 x 25 mm, cu capac, 2 m, alb, PVC ignifugat | Dedeman",
+    "pret": 5.21,
+    "titlu_potrivit": true
+   }
+  ],
+  "p030": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/unghi-interior-p-40-x-25-mf0013-32260-set-5-bucati/p/1021659",
+    "potriviri": 1,
+    "titlu": "Unghi interior P 40 x 25 MF0013-32260, set 5 bucati | Dedeman",
+    "pret": 12.93,
+    "titlu_potrivit": true
+   }
+  ],
+  "p031": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/unghi-exterior-p-40-x-25-mf0013-32261-set-5-bucati/p/1021660",
+    "potriviri": 3,
+    "titlu": "Unghi exterior P 40 x 25 MF0013-32261, set 5 bucati | Dedeman",
+    "pret": 13.53,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/jardiniera-din-beton-flora-exterior-dreptunghiulara-bej-75-x-40-x-25-cm/p/7049187",
+    "potriviri": 3,
+    "titlu": "Jardiniera din beton Flora, exterior, dreptunghiulara, bej, 75 x 40 x 25 cm | Dedeman",
+    "pret": 158.26,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/jardiniera-din-beton-flora-exterior-dreptunghiulara-bej-60-x-40-x-25-cm/p/7049188",
+    "potriviri": 3,
+    "titlu": "Jardiniera din beton Flora, exterior, dreptunghiulara, bej, 60 x 40 x 25 cm | Dedeman",
+    "pret": 132.15,
+    "titlu_potrivit": true
+   }
+  ],
+  "p032": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/tocator-dreptunghiular-lemn-natur-40-x-25-x-2-cm/p/3028224",
+    "potriviri": 9,
+    "titlu": "Tocator dreptunghiular, lemn natur, 40 x 25 x 2 cm | Dedeman",
+    "pret": 24.79,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/coltar-tip-l-pentru-mobila-din-otel-zincat-40-x-40-x-25-mm-4-bucati/p/6012740",
+    "potriviri": 9,
+    "titlu": "Coltar tip L, pentru mobila, din otel zincat, 40 x 40 x 25 mm, 4 bucati | Dedeman",
+    "pret": 9.54,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/jardiniera-din-beton-flora-exterior-dreptunghiulara-bej-75-x-40-x-25-cm/p/7049187",
+    "potriviri": 9,
+    "titlu": "Jardiniera din beton Flora, exterior, dreptunghiulara, bej, 75 x 40 x 25 cm | Dedeman",
+    "pret": 158.26,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/jardiniera-din-beton-flora-exterior-dreptunghiulara-bej-60-x-40-x-25-cm/p/7049188",
+    "potriviri": 9,
+    "titlu": "Jardiniera din beton Flora, exterior, dreptunghiulara, bej, 60 x 40 x 25 cm | Dedeman",
+    "pret": 132.15,
+    "titlu_potrivit": true
+   }
+  ],
+  "p033": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/folie-terasa-transparenta-din-pvc-cu-capse-si-bride-pentru-inchidere-si-protectie-foisor-140-x-250-cm/p/7062432",
+    "potriviri": 1,
+    "titlu": "Folie terasa, transparenta, din PVC, cu capse si bride, pentru inchidere si protectie foisor, 140 x 250 cm | Dedeman",
+    "pret": 365.29,
+    "titlu_potrivit": true
+   }
+  ],
+  "p034": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/canal-cablu-slitat-40-x-60-mm-2-m-gri/p/1042391",
+    "potriviri": 10,
+    "titlu": "Canal cablu slitat 40 x 60 mm, 2 m, gri | Dedeman",
+    "pret": 17.36,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/canal-cablu-wdk-6191134-40-x-60-mm-alb/p/1003102",
+    "potriviri": 10,
+    "titlu": "Canal cablu WDK 6191134, 40 x 60 mm, alb | Dedeman",
+    "pret": 25.36,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/canal-cablu-wdk-6020887-40-x-60-mm-alb-crem/p/1000369",
+    "potriviri": 10,
+    "titlu": "Canal cablu WDK 6020887, 40 x 60 mm, alb crem | Dedeman",
+    "pret": 21.07,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/plinta-parchet-mdf-set-alb-2440-x-60-x-19-mm/p/4021233",
+    "potriviri": 10,
+    "titlu": "Plinta parchet MDF SET, alb, 2440 x 60 x 19 mm | Dedeman",
+    "pret": 22.23,
+    "titlu_potrivit": true
+   }
+  ],
+  "p035": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/cot-interior-wdk-6191959-40-x-60-mm-alb/p/1014243",
+    "potriviri": 13,
+    "titlu": "Cot interior WDK 6191959, 40 x 60 mm, alb | Dedeman",
+    "pret": 21.99,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/covor-intrare-interior-multieco-40-x-60-cm-polipropilena-bej-dreptunghiular/p/4027344",
+    "potriviri": 13,
+    "titlu": "Covor intrare interior Multieco, 40 x 60 cm, polipropilena, bej, dreptunghiular | Dedeman",
+    "pret": 6.19,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/covor-intrare-interior-hamat-future-40-x-60-cm-polipropilena-gri-dreptunghiular/p/4019476",
+    "potriviri": 13,
+    "titlu": "Covor intrare interior Hamat Future, 40 x 60 cm, polipropilena, gri, dreptunghiular | Dedeman",
+    "pret": 18.59,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/covor-intrare-interior-multieco-40-x-60-cm-polipropilena-argintiu-dreptunghiular/p/4027342",
+    "potriviri": 13,
+    "titlu": "Covor intrare interior Multieco, 40 x 60 cm, polipropilena, argintiu, dreptunghiular | Dedeman",
+    "pret": 6.19,
+    "titlu_potrivit": true
+   }
+  ],
+  "p036": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/cot-exterior-wdk-6192254-40-x-60-mm-alb/p/1014244",
+    "potriviri": 15,
+    "titlu": "Cot exterior WDK 6192254, 40 x 60 mm, alb | Dedeman",
+    "pret": 21.99,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/jardiniera-din-beton-flora-exterior-dreptunghiulara-bej-60-x-40-x-25-cm/p/7049188",
+    "potriviri": 15,
+    "titlu": "Jardiniera din beton Flora, exterior, dreptunghiulara, bej, 60 x 40 x 25 cm | Dedeman",
+    "pret": 132.15,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/jardiniera-din-ciment-ronda-exterior-dreptunghiulara-alb-gri-60-x-40-x-30-cm/p/7076960",
+    "potriviri": 15,
+    "titlu": "Jardiniera din ciment Ronda, exterior, dreptunghiulara, alb + gri, 60 x 40 x 30 cm | Dedeman",
+    "pret": 247.11,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/covor-intrare-exterior-layla-40-x-60-cm-polipropilena-antracit-dreptunghiular/p/4027341",
+    "potriviri": 15,
+    "titlu": "Covor intrare exterior Layla, 40 x 60 cm, polipropilena, antracit, dreptunghiular | Dedeman",
+    "pret": 18.17,
+    "titlu_potrivit": true
+   }
+  ],
+  "p037": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/cot-plan-wdk-6192858-40-x-60-mm-alb/p/1014242",
+    "potriviri": 75,
+    "titlu": "Cot plan WDK 6192858, 40 x 60 mm, alb | Dedeman",
+    "pret": 21.99,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/cot-90-grade-fs-7001290-otel-60-x-400-mm/p/1008272",
+    "potriviri": 75,
+    "titlu": "Cot 90 grade FS 7001290, otel, 60 x 400 mm | Dedeman",
+    "pret": 309.09,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/teava-dreptunghiulara-otel-s235-60-x-40-x-2-mm/p/6000532",
+    "potriviri": 75,
+    "titlu": "Teava dreptunghiulara otel S235, 60 x 40 x 2 mm | Dedeman",
+    "pret": 108.22,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/teava-dreptunghiulara-otel-s235-60-x-40-x-3-mm/p/6000533",
+    "potriviri": 75,
+    "titlu": "Teava dreptunghiulara otel S235, 60 x 40 x 3 mm | Dedeman",
+    "pret": 155.07,
+    "titlu_potrivit": true
+   }
+  ],
+  "p038": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/piesa-capat-wdk-6193226-40-x-60-mm-alb/p/1014245",
+    "potriviri": 2,
+    "titlu": "Piesa capat WDK 6193226, 40 x 60 mm, alb | Dedeman",
+    "pret": 4.43,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/capac-wc-din-duroplast-dura-sirius-negru-mat-inchidere-lenta-360-x-400/-440-mm/p/3047522",
+    "potriviri": 2,
+    "titlu": "Capac WC din duroplast, Dura Sirius, negru mat, inchidere lenta, 360 x 400 / 440 mm | Dedeman",
+    "pret": 329.75,
+    "titlu_potrivit": true
+   }
+  ],
+  "p039": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/conexpand-cu-camasa-d12-mm-cu-surub-m8-x-80-mm/p/6000447",
+    "potriviri": 41,
+    "titlu": "Conexpand cu camasa D12 mm, cu surub M8 x 80 mm | Dedeman",
+    "pret": 2.27,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/diblu-universal-din-nylon-fischer-sxr-8-x-80-mm/p/1033256",
+    "potriviri": 41,
+    "titlu": "Diblu universal, din nylon, Fischer SXR, 8 x 80 mm | Dedeman",
+    "pret": 0.93,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/surub-pentru-ancorare-schela-fischer-gs-8-x-80-mm/p/1033364",
+    "potriviri": 41,
+    "titlu": "Surub pentru ancorare schela, Fischer GS, 8 x 80 mm | Dedeman",
+    "pret": 8.39,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/set-fixare-sanitare-diblu-8-x-80-mm-surub-6-x-85-mm/p/6010003",
+    "potriviri": 41,
+    "titlu": "Set fixare sanitare, diblu 8 x 80 mm, surub 6 x 85 mm | Dedeman",
+    "pret": 13.14,
+    "titlu_potrivit": true
+   }
+  ],
+  "p040": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/diblu-metalic-pentru-gips-carton-gkm-24556/p/6000875",
+    "potriviri": 22,
+    "titlu": "Diblu metalic pentru gips carton, GKM 24556 | Dedeman",
+    "pret": 2.29,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/diblu-autoforant-pentru-gips-carton-din-zamac-cu-surub-trz-13-x-30-mm/p/6015583",
+    "potriviri": 22,
+    "titlu": "Diblu autoforant pentru gips carton, din zamac, cu surub, TRZ 13 x 30 mm | Dedeman",
+    "pret": 1.07,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/surub-molly-rigips-cu-diblu-metalic-cap-in-cruce-din-otel-zincat-6-x-52-mm/p/5000020",
+    "potriviri": 22,
+    "titlu": "Surub Molly Rigips cu diblu metalic, cap in cruce, din otel zincat, 6 x 52 mm | Dedeman",
+    "pret": 1.38,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/surub-molly-rigips-cu-diblu-metalic-cap-in-cruce-din-otel-zincat-6-x-65-mm/p/5004545",
+    "potriviri": 22,
+    "titlu": "Surub Molly Rigips cu diblu metalic, cap in cruce, din otel zincat, 6 x 65 mm | Dedeman",
+    "pret": 1.79,
+    "titlu_potrivit": true
+   }
+  ],
+  "p041": [],
+  "p042": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/banda-zimtata-lohuis-alb-2-5-x-100-mm-100-bucati/p/1079450",
+    "potriviri": 6,
+    "titlu": "Banda zimtata Lohuis, alb, 2.5 x 100 mm, 100 bucati | Dedeman",
+    "pret": 3.05,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/banda-zimtata-146408-protectie-uv-negru-2-5-x-100-mm-100-bucati/p/1026770",
+    "potriviri": 6,
+    "titlu": "Banda zimtata 146408, protectie UV, negru, 2.5 x 100 mm, 100 bucati | Dedeman",
+    "pret": 3.79,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/banda-zimtata-146446-protectie-uv-negru-12-5-x-1000-mm-50-bucati/p/1020614",
+    "potriviri": 6,
+    "titlu": "Banda zimtata 146446, protectie UV, negru, 12.5 x 1000 mm, 50 bucati | Dedeman",
+    "pret": 245.45,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/banda-zimtata-friulsider-36300m251000c-alb-2-5-x-100-mm-100-bucati/p/1027620",
+    "potriviri": 6,
+    "titlu": "Banda zimtata, Friulsider 36300M251000C, alb, 2.5 x 100 mm, 100 bucati | Dedeman",
+    "pret": 3.4,
+    "titlu_potrivit": true
+   }
+  ],
+  "p043": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/scule-si-echipamente/consumabile/alcool-izopropilic-900ml/",
+    "potriviri": 7,
+    "titlu": "Alcool izopropilic 900ml | Fiberstore.ro",
+    "pret": 18.18,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/scule-si-echipamente/consumabile/alcool-izopropilic-pur-1000-ml/",
+    "potriviri": 7,
+    "titlu": "Alcool izopropilic pur 1000 ml | Fiberstore.ro",
+    "pret": 27.27,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/scule-si-echipamente/consumabile/spray-degresant-ipa-alcool-izopropilic-500ml/",
+    "potriviri": 7,
+    "titlu": "Spray degresant IPA alcool izopropilic 500ml | Fiberstore.ro",
+    "pret": 18.18,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/scule-si-echipamente/aparate-de-testare-unelte-accesorii/dispenser-alcool-250ml/",
+    "potriviri": 7,
+    "titlu": "Dispenser alcool 250ml | Fiberstore.ro",
+    "pret": 19.01,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/alcool-sanitar-vorona-70-0-5-l/p/7056688",
+    "potriviri": 6,
+    "titlu": "Alcool sanitar Vorona 70%, 0.5 L | Dedeman",
+    "pret": 9.9,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/alcool-tehnic-concentratie-97-0-9-l/p/7060395",
+    "potriviri": 6,
+    "titlu": "Alcool tehnic, concentratie 97%, 0.9 L | Dedeman",
+    "pret": 10.55,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/alcool-izopropilic-kynita-concentratie-99-9-0-9-l/p/7072043",
+    "potriviri": 6,
+    "titlu": "Alcool izopropilic Kynita, concentratie 99.9%, 0.9 L | Dedeman",
+    "pret": 20.19,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/rezerva-de-suflat-pentru-detector-de-alcool-pni-at188/p/8072189",
+    "potriviri": 6,
+    "titlu": "Rezerva de suflat pentru detector de alcool PNI AT188 | Dedeman",
+    "pret": 2.14,
+    "titlu_potrivit": true
+   }
+  ],
+  "p044": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/scule-si-echipamente/aparate-de-testare-unelte-accesorii/servetele-pentru-fibra-optica/",
+    "potriviri": 1,
+    "titlu": "Servetele pentru fibra optica, cod MIV102 | Fiberstore.ro",
+    "pret": 23.14,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/servetele-curatare-multiple-suprafete-soudal-swipex-100-bucati/p/5018746",
+    "potriviri": 5,
+    "titlu": "Servetele curatare multiple suprafete Soudal Swipex, 100 bucati | Dedeman",
+    "pret": 38.43,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/servetele-curatare-multiple-suprafete-soudal-swipex-xxl-20-bucati/p/5018744",
+    "potriviri": 5,
+    "titlu": "Servetele curatare multiple suprafete Soudal Swipex XXL, 20 bucati | Dedeman",
+    "pret": 11.57,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/servetele-umede-auto-nigrin-pentru-curatare-interior-auto-set-20-bucati/p/1020183",
+    "potriviri": 5,
+    "titlu": "Servetele umede auto, Nigrin, pentru curatare interior auto, set 20 bucati | Dedeman",
+    "pret": 11.21,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/servetele-umede-auto-all-ride-pentru-curatare-interior-auto-set-20-bucati/p/1025728",
+    "potriviri": 5,
+    "titlu": "Servetele umede auto, All Ride, pentru curatare interior auto, set 20 bucati | Dedeman",
+    "pret": 5.45,
+    "titlu_potrivit": true
+   }
+  ],
+  "p045": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/scule-si-echipamente/consumabile/tub-termoretractabil-protectie-suduri-60-mm/",
+    "potriviri": 1,
+    "titlu": "Tub termoretractabil protectie suduri 60 mm | Fiberstore.ro",
+    "pret": 37.19,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/termostat-de-ambient-pentru-centrala-wireless-pni-ct60-programabil-afisaj-digital-protectie-inghet-ip30-alb/p/2027662",
+    "potriviri": 3,
+    "titlu": "Termostat de ambient pentru centrala, wireless, PNI CT60, programabil, afisaj digital, protectie inghet, IP30, alb | Dedeman",
+    "pret": 185.95,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/friteuza-cu-aer-cald/-airfryer-zokura-z1232-1800-w-5-2-litri-7-programe-automate-afisaj-led-termostat-reglabil-80-200-grade-c-temporizator-60-min-oprire-automata-protectie-supraincalzire-negru/p/3041234",
+    "potriviri": 3,
+    "titlu": "Friteuza cu aer cald / airfryer, Zokura Z1232, 1800 W, 5.2 litri, 7 programe automate, afisaj LED, termostat reglabil 80 - 200 grade C, temporizator 60 min, oprire automata, protectie supraincalzire, ",
+    "pret": 387.6,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/friteuza-cu-aer-cald/-airfryer-zokura-z1231-1400-w-3-2-litri-7-programe-automate-afisaj-led-termostat-reglabil-80-200-grade-c-temporizator-60-min-oprire-automata-protectie-supraincalzire-negru/p/3041236",
+    "potriviri": 3,
+    "titlu": "Friteuza cu aer cald / airfryer, Zokura Z1231, 1400 W, 3.2 litri, 7 programe automate, afisaj LED, termostat reglabil 80 - 200 grade C, temporizator 60 min, oprire automata, protectie supraincalzire, ",
+    "pret": 313.22,
+    "titlu_potrivit": true
+   }
+  ],
+  "p046": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/scule-si-echipamente/consumabile/tub-termoretractabil-protectie-suduri-40-mm/",
+    "potriviri": 1,
+    "titlu": "Tub termoretractabil protectie suduri 40 mm | Fiberstore.ro",
+    "pret": 28.93,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/panou-radiant-infrarosu-safecare-igty5-3h1006p-1l-montaj-pe-tavan-termostat-protectie-la-supraincalzire-700-w-1080-x-630-x-40-mm/p/2034972",
+    "potriviri": 3,
+    "titlu": "Panou radiant infrarosu Safecare IGTY5-3H1006P-1L, montaj pe tavan, termostat, protectie la supraincalzire, 700 W, 1080 x 630 x 40 mm | Dedeman",
+    "pret": 1563.64,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/panou-radiant-infrarosu-safecare-igty5-3h1206p-1l-montaj-pe-tavan-termostat-protectie-la-supraincalzire-840-w-1280-x-630-x-40-mm/p/2034973",
+    "potriviri": 3,
+    "titlu": "Panou radiant infrarosu Safecare IGTY5-3H1206P-1L, montaj pe tavan, termostat, protectie la supraincalzire, 840 W , 1280 x 630 x 40 mm | Dedeman",
+    "pret": 1725.62,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/gratar-electric-rohnson-r2525-2200-w-plita-neaderenta-40-x-30-cm-indicatoare-luminoase-termostat-reglabil-protectie-la-supraincalzire-negru/p/3058172",
+    "potriviri": 3,
+    "titlu": "Gratar electric, Rohnson R2525, 2200 W, plita neaderenta, 40 x 30 cm, indicatoare luminoase, termostat reglabil, protectie la supraincalzire, negru | Dedeman",
+    "pret": 230.58,
+    "titlu_potrivit": true
+   }
+  ],
+  "p047": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/scule-si-echipamente/consumabile/aer-comprimat-600ml/",
+    "potriviri": 2,
+    "titlu": "Aer Comprimat 600ML | Fiberstore.ro",
+    "pret": 27.27,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/scule-si-echipamente/consumabile/aer-comprimat-tip-pistol-400ml/",
+    "potriviri": 2,
+    "titlu": "Aer comprimat tip pistol 400ml | Fiberstore.ro",
+    "pret": 23.14,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/set-3-accesorii-aer-comprimat-airmaster-kit-air-3/p/1031368",
+    "potriviri": 34,
+    "titlu": "Set 3 accesorii aer comprimat, Airmaster Kit-Air 3 | Dedeman",
+    "pret": 80.96,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/furtun-aer-comprimat-drept-stanley-176609xstn-6-x-11-mm-15-m/p/1058138",
+    "potriviri": 34,
+    "titlu": "Furtun aer comprimat, drept, Stanley 176609XSTN, 6 x 11 mm, 15 m | Dedeman",
+    "pret": 83.47,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/modul-sursa-curent-si-aer-comprimat-unior-625646-475-x-650-x-870-mm/p/1060482",
+    "potriviri": 34,
+    "titlu": "Modul sursa curent si aer comprimat, Unior 625646, 475 x 650 x 870 mm | Dedeman",
+    "pret": 4586.79,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/pamatuf-swiffer-duster-kit-trap-lock-1-maner-4-rezerve-350-x-100-mm/p/7068457",
+    "potriviri": 34,
+    "titlu": "Pamatuf Swiffer Duster Kit Trap + Lock, 1 maner + 4 rezerve, 350 x 100 mm | Dedeman",
+    "pret": 21.48,
+    "titlu_potrivit": true
+   }
+  ],
+  "p048": [
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/scule-si-echipamente/consumabile/banda-izolatoare-20m-neagra/",
+    "potriviri": 5,
+    "titlu": "Banda izolatoare 20m neagra | Fiberstore.ro",
+    "pret": 2.89,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/reduceri-de-pret-si-produse-noi/banda-izolatoare-pvc-mare-18m/",
+    "potriviri": 5,
+    "titlu": "Banda izolatoare PVC mare 18m | Fiberstore.ro",
+    "pret": 2.48,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/scule-si-echipamente/consumabile/banda-izolatoare-diverse-culori/",
+    "potriviri": 5,
+    "titlu": "Banda izolatoare diverse culori, cod MIV998 | Fiberstore.ro",
+    "pret": 2.73,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Fiberstore",
+    "url": "https://fiberstore.ro/scule-si-echipamente/consumabile/banda-izolatoare-pvc-mijlocie-11m/",
+    "potriviri": 5,
+    "titlu": "Banda izolatoare PVC mijlocie 11m | Fiberstore.ro",
+    "pret": 2.07,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/izolator-pentru-banda-pana-la-40-mm-set-25-buc/p/1050253",
+    "potriviri": 80,
+    "titlu": "Izolator pentru banda pana la 40 mm, set 25 buc | Dedeman",
+    "pret": 27.89,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/banda-izolatoare-sanitara-soudal-38-mm-x-3-35-m/p/5016961",
+    "potriviri": 80,
+    "titlu": "Banda izolatoare sanitara, Soudal, 38 mm x 3.35 m | Dedeman",
+    "pret": 12.58,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/banda-izolatoare-hoff-alb-20-m-x-0-15-mm-x-18-mm/p/1043741",
+    "potriviri": 80,
+    "titlu": "Banda izolatoare Hoff, alb, 20 m x 0.15 mm x 18 mm | Dedeman",
+    "pret": 2.89,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/banda-izolatoare-hoff-alb-20-m-x-0-15-mm-x-50-mm/p/1052078",
+    "potriviri": 80,
+    "titlu": "Banda izolatoare Hoff, alb, 20 m x 0.15 mm x 50 mm | Dedeman",
+    "pret": 8.18,
+    "titlu_potrivit": true
+   }
+  ],
+  "p049": [
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/banda-mascare-tesa-4325-alb-interior-50-m-x-38-mm/p/5001460",
+    "potriviri": 3,
+    "titlu": "Banda mascare tesa 4325, alb, interior, 50 m x 38 mm | Dedeman",
+    "pret": 0.23,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/banda-mascare-anker-alb-interior/-exterior-38-mm-x-45-m/p/5003792",
+    "potriviri": 3,
+    "titlu": "Banda mascare Anker, alb, interior / exterior, 38 mm x 45 m | Dedeman",
+    "pret": 0.24,
+    "titlu_potrivit": true
+   },
+   {
+    "magazin": "Dedeman",
+    "url": "https://www.dedeman.ro/ro/banda-mascare-baudeman-4359-43-alb-interior-50-m-x-38-mm/p/5010275",
+    "potriviri": 3,
+    "titlu": "Banda mascare Baudeman 4359 - 43, alb, interior, 50 m x 38 mm | Dedeman",
+    "pret": 0.19,
+    "titlu_potrivit": true
+   }
+  ],
+  "p050": []
+ }
+}
