@@ -172,8 +172,9 @@
  ],
  "p049": [
   {
-   "nume": "Dedeman (Tesa, 50 m)",
-   "url": "https://www.dedeman.ro/ro/banda-mascare-tesa-4325-alb-interior-50-m-x-38-mm/p/5001460"
+   "nume": "Dedeman (Tesa, 50 m; preț/m × 50)",
+   "url": "https://www.dedeman.ro/ro/banda-mascare-tesa-4325-alb-interior-50-m-x-38-mm/p/5001460",
+   "factor": 50
   }
  ]
 }
