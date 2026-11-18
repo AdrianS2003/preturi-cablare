@@ -160,6 +160,7 @@ def parse_dedeman(soup):
 PARSERE = {
     'fiberstore.ro': parse_fiberstore,
     'ethercom.ro': parse_ethercom,
+    'itconex.ro': parse_ethercom,  # tot PrestaShop 1.7
     'smd-plus.ro': parse_smdplus,
     'dedeman.ro': parse_dedeman,
 }

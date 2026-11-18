@@ -1,0 +1,42 @@
+name: Căutare surse
+
+on:
+  workflow_dispatch:
+    inputs:
+      produse:
+        description: 'Doar aceste produse (ex: p001,p014). Gol = toate.'
+        required: false
+        default: ''
+      magazine:
+        description: 'Doar aceste magazine (ex: Dedeman,ITConex). Gol = toate.'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: preturi
+  cancel-in-progress: false
+
+jobs:
+  cauta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Caută candidați
+        env:
+          PRODUSE: ${{ github.event.inputs.produse }}
+          MAGAZINE: ${{ github.event.inputs.magazine }}
+        run: python scripts/cautare.py --only "$PRODUSE" --magazine "$MAGAZINE"
+      - name: Salvează rezultatul
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/candidati.json
+          if git diff --cached --quiet; then echo "Nicio modificare."; else git commit -m "Candidați surse $(date -u +%F)" && git pull --rebase && git push; fi
