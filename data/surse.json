@@ -17,10 +17,38 @@
    "url": "https://ethercom.ro/organizatoare-de-cabluri/3853-organizator-cabluri-okr-5.html"
   }
  ],
+ "p005": [
+  {
+   "nume": "Ethercom (Green Cell UPS15)",
+   "url": "https://ethercom.ro/ups-surse-neintreruptibile/43056-ups-ups15-rack-3000-va-green-cell.html"
+  }
+ ],
+ "p006": [
+  {
+   "nume": "Ethercom (set 4 buc)",
+   "url": "https://ethercom.ro/accesorii/11251-set-suruburi-rack-sm-6-rack.html"
+  }
+ ],
+ "p012": [
+  {
+   "nume": "Ethercom (OM4)",
+   "url": "https://ethercom.ro/patchcord-fibra-optica/31232-patchcord-lc-lc-mm-om4-50-125-duplex-0-5m.html"
+  }
+ ],
  "p013": [
   {
    "nume": "Fiberstore",
    "url": "https://fiberstore.ro/903--patchcord-multi-mode-lcupc-lcupc-om3-duplex-3mm-1-m.html"
+  },
+  {
+   "nume": "Ethercom (OM4)",
+   "url": "https://ethercom.ro/patchcord-uri/30847-patchcord-lc-lc-mm-om4-50-125-duplex-1m.html"
+  }
+ ],
+ "p014": [
+  {
+   "nume": "Ethercom (OM4)",
+   "url": "https://ethercom.ro/patchcord-fibra-optica/30848-patchcord-lc-lc-mm-om4-50-125-duplex-2m.html"
   }
  ],
  "p015": [
@@ -29,10 +57,54 @@
    "url": "https://smd-plus.ro/patchcorduri-si-pigtailuri-fo/790-patchcord-fo-lc-pc-lc-pc-mm-om4-50-125-manta-lszh-20mm-duplex-3m.html"
   }
  ],
+ "p016": [
+  {
+   "nume": "SMD Plus",
+   "url": "https://smd-plus.ro/patchcorduri-si-pigtailuri-fo/699-patchcord-fo-lc-pc-lc-pc-mm-om3-50-125-manta-lszh-20mm-duplex-10m.html"
+  },
+  {
+   "nume": "Ethercom (OM4)",
+   "url": "https://ethercom.ro/patchcord-uri/34422-patchcord-lc-lc-mm-om4-50-125-duplex-10m.html"
+  }
+ ],
  "p017": [
   {
    "nume": "SMD Plus",
    "url": "https://smd-plus.ro/patchcorduri-si-pigtailuri-fo/1746-patchcord-fo-lcpc-lcpc-mm-om3-50125-manta-lszh-20mm-duplex-30m.html"
+  },
+  {
+   "nume": "Ethercom (OM4)",
+   "url": "https://ethercom.ro/patchcord-fibra-optica/34555-patchcord-lc-lc-mm-om4-50-125-duplex-30m.html"
+  }
+ ],
+ "p020": [
+  {
+   "nume": "Dedeman",
+   "url": "https://www.dedeman.ro/ro/tija-filetata-din-otel-zincat-alb-din-975-diametrul-m8-1000-mm/p/6003654"
+  }
+ ],
+ "p022": [
+  {
+   "nume": "Dedeman",
+   "url": "https://www.dedeman.ro/ro/piulita-hexagonala-din-otel-zincat-alb-din-934-m8/p/6000210"
+  }
+ ],
+ "p023": [
+  {
+   "nume": "Dedeman",
+   "url": "https://www.dedeman.ro/ro/mufa-hexagonala-pentru-imbinare-tija-filetata-g-6410081-otel-m8-x-24-mm/p/1015605"
+  }
+ ],
+ "p026": [
+  {
+   "nume": "Dedeman",
+   "url": "https://www.dedeman.ro/ro/saiba-plata-din-otel-zincat-alb-din125a-m6-x-12-x-1-6-mm/p/7003004"
+  }
+ ],
+ "p027": [
+  {
+   "nume": "Dedeman",
+   "url": "https://www.dedeman.ro/ro/saiba-plata-din-otel-zincat-alb-din125a-m8-x-16-x-1-6-mm/p/7000281"
   }
  ],
  "p028": [
@@ -41,10 +113,28 @@
    "url": "https://www.dedeman.ro/ro/disc-debitare-metal-red-square-rq1251-125-x-22-2-x-1-mm/p/1024541"
   }
  ],
+ "p029": [
+  {
+   "nume": "Dedeman (bară 2 m)",
+   "url": "https://www.dedeman.ro/ro/canal-cablu-jgheab-40-x-25-mm-cu-capac-2-m-alb-pvc-ignifugat/p/1039843"
+  }
+ ],
+ "p034": [
+  {
+   "nume": "Dedeman (bară 2 m)",
+   "url": "https://www.dedeman.ro/ro/canal-cablu-jgheab-60-x-40-mm-cu-capac-2-m-alb-pvc-ignifugat/p/1039846"
+  }
+ ],
  "p039": [
   {
    "nume": "Dedeman",
    "url": "https://www.dedeman.ro/ro/diblu-universal-din-polipropilena-sea-cu-surub-cap-inecat-8-x-80-mm-100-bucati/p/1083297"
+  }
+ ],
+ "p042": [
+  {
+   "nume": "Dedeman",
+   "url": "https://www.dedeman.ro/ro/banda-zimtata-friulsider-36300z251000c-verde-2-5-x-100-mm-100-bucati/p/1042328"
   }
  ],
  "p043": [
@@ -62,6 +152,28 @@
    "nume": "SMD Plus (set 24 buc)",
    "url": "https://smd-plus.ro/conectica-fibra-optica/1672-tub-termocontractabil-protectie-sudura-60mm.html",
    "factor": 4.1667
+  }
+ ],
+ "p047": [
+  {
+   "nume": "Dedeman",
+   "url": "https://www.dedeman.ro/ro/spray-gaz-cu-aer-comprimat-elico-pentru-curatare-dispozitive-electronice-si-mecanice-400-ml/p/1088246"
+  },
+  {
+   "nume": "Fiberstore",
+   "url": "https://fiberstore.ro/1006-aer-comprimat-tip-pistol-400ml.html"
+  }
+ ],
+ "p048": [
+  {
+   "nume": "Dedeman (20 m)",
+   "url": "https://www.dedeman.ro/ro/banda-izolatoare-total-plast-negru-20-m-x-19-mm-x-0-15-mm/p/1081468"
+  }
+ ],
+ "p049": [
+  {
+   "nume": "Dedeman (Tesa, 50 m)",
+   "url": "https://www.dedeman.ro/ro/banda-mascare-tesa-4325-alb-interior-50-m-x-38-mm/p/5001460"
   }
  ]
 }
