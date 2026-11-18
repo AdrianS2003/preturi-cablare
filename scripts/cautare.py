@@ -32,9 +32,9 @@ PAUZA = 2.0
 MAGAZINE = {
     'Dedeman': {'base': 'https://www.dedeman.ro', 'prod': r'/p/\d+'},
     'Ethercom': {'base': 'https://ethercom.ro', 'prod': r'/\d+-[^/]+\.html$'},
-    'SMD Plus': {'base': 'https://smd-plus.ro', 'prod': r'.'},
+    'SMD Plus': {'base': 'https://smd-plus.ro', 'prod': r'/\d+-[^/]+\.html$'},
     'Fiberstore': {'base': 'https://fiberstore.ro', 'prod': r'.'},
-    'ITConex': {'base': 'https://itconex.ro', 'prod': r'/produse/\d+-'},
+    'ITConex': {'base': 'https://itconex.ro', 'prod': r'/produse/\d+-', 'start': 'https://itconex.ro/ro/'},
     'Mondo Plast': {'base': 'https://www.mondoplast.ro', 'prod': r'-pg_ft-\d+'},
     'Starbit': {'base': 'https://startbit.ro', 'prod': r'.'},
 }
@@ -162,6 +162,49 @@ def sitemap_urls(base, log):
     return out
 
 
+
+# ---------- rezervă: parcurgerea categoriilor (când nu există sitemap) ----------
+CAT_OK = (r'fibr|optic|\bfo\b|rack|patch|cablu|cabluri|pdu|ups|organizator|accesor|consumabil|scule|canal|retea|retele|'
+          r'data ?center|pasive|odf|priz|cutii|conectica|alimentare|surse|cabinet|dulap|sfp|switch|fixare|curatare|termo|unelte|electric')
+CAT_NU = r'cont|login|cos|cart|checkout|comanda|contact|blog|termeni|politic|gdpr|cookie|wishlist|compar|search|cautare|despre|livrare|retur|brand|producator|manufacturer'
+
+
+def crawl(cfg, log, max_pagini=450):
+    base = cfg['base']
+    host = urlparse(base).netloc
+    prod = re.compile(cfg['prod'])
+    coada, vazute, produse = [cfg.get('start', base + '/')], set(), {}
+    while coada and len(vazute) < max_pagini:
+        u = coada.pop(0)
+        if u in vazute:
+            continue
+        vazute.add(u)
+        try:
+            html = C.descarca(u)
+        except Exception as e:  # noqa: BLE001
+            log.append(f'crawl {u[:60]}: {str(e)[:40]}')
+            continue
+        soup = BeautifulSoup(html, 'html.parser')
+        for a in soup.find_all('a', href=True):
+            h = a['href'].split('#')[0]
+            if h.startswith('/'):
+                h = f'{urlparse(base).scheme}://{host}{h}'
+            if urlparse(h).netloc.replace('www.', '') != host.replace('www.', ''):
+                continue
+            if prod.search(urlparse(h).path):
+                t = a.get('title') or a.get_text(' ', strip=True)
+                if len(t) > len(produse.get(h.split('?')[0], '')):
+                    produse[h.split('?')[0]] = t
+                continue
+            low = norm(h)
+            pag = re.search(r'[?&](?:page|p)=\d+', h)
+            if (re.search(CAT_OK, low) or pag) and not re.search(CAT_NU, low) and h not in vazute:
+                if pag or '?' not in h:
+                    coada.append(h)
+        time.sleep(1.0)
+    log.append(f'parcurs {len(vazute)} pagini de categorie')
+    return produse
+
 # ---------- citire pagină candidat ----------
 def titlu(soup):
     for sel in ('meta[property="og:title"]',):
@@ -245,8 +288,11 @@ def main():
         except Exception as e:  # noqa: BLE001
             log.append('eroare sitemap: ' + str(e)[:100])
             urls = []
-        urls = list(dict.fromkeys(urls))
-        texte = [(u, norm(urlparse(u).path)) for u in urls]
+        nume_pag = {u: '' for u in dict.fromkeys(urls)}
+        if len(nume_pag) < 50:
+            nume_pag.update(crawl(cfg, log))
+        urls = list(nume_pag)
+        texte = [(u, norm(urlparse(u).path + ' ' + nume_pag[u])) for u in urls]
         deschise = 0
         for pid, rule in reguli.items():
             hits = [u for u, t in texte if potriveste(rule, t)]
