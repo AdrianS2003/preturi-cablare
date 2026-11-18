@@ -274,7 +274,7 @@ function renderContentInner(el) {
   var rows = sortedRows(k.shown);
   rows.forEach(function (it, i) { h += rowHtml(it, i, mult); });
   if (!rows.length) h += '<div class="empty">Niciun produs nu corespunde căutării și filtrelor.<button type="button" data-act="clearall">Șterge tot</button></div>';
-  h += '<div class="foot">Prețuri în lei, ' + (S.vat ? 'cu TVA' : 'fără TVA') + '. Se afișează cel mai mare preț dintre surse, fără reduceri. Preț / unitate = prețul maxim al ambalajului ÷ cantitatea din ambalaj. Apasă pe antetul unei coloane pentru sortare și pe un rând pentru surse. Versiune 3.</div></main>';
+  h += '</main>';
   el.innerHTML = h;
 }
 
@@ -549,7 +549,7 @@ function init() {
   try { var u = JSON.parse(ls(LSUI) || '{}'); S.dark = !!u.dark; S.vat = !!u.vat; } catch (e) {}
   loadLocal();
   function get(path) { return fetch(path, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(path + ' ' + r.status); return r.json(); }); }
-  Promise.all([get('data/produse.json?v=3'), get('data/preturi.json?t=' + Date.now())]).then(function (res) {
+  Promise.all([get('data/produse.json?v=4'), get('data/preturi.json?t=' + Date.now())]).then(function (res) {
     DATA.produse = res[0].produse || [];
     var p = res[1] || {};
     DATA.preturi = { actualizat: p.actualizat || null, surse: p.surse || {}, variatie: p.variatie || {} };
