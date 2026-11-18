@@ -162,7 +162,15 @@ def parse_mondoplast(soup):
     txt = soup.get_text(' ', strip=True)
     old = re.search(r'Pret\s+vechi\s+fara\s+TVA\s*:?\s*([\d.,]+)\s*LEI', txt, re.I)
     cur = re.search(r'Pret\s+(?:nou\s+)?fara\s+TVA\s*:?\s*([\d.,]+)\s*LEI', txt, re.I)
-    return _p(to_num(cur.group(1)) if cur else None, to_num(old.group(1)) if old else None, False, bool(old))
+    # aici prețul fără TVA e scris în format englezesc: 2,711.97 (virgula = mii)
+    def en(m):
+        if not m:
+            return None
+        t = m.group(1).rstrip('.,')
+        if '.' in t or re.search(r',\d{3}$', t):
+            return float(t.replace(',', ''))
+        return to_num(t)
+    return _p(en(cur), en(old), False, bool(old))
 
 
 PARSERE = {
