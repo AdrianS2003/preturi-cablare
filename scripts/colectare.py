@@ -167,7 +167,9 @@ def parse_mondoplast(soup):
         if not m:
             return None
         t = m.group(1).rstrip('.,')
-        if '.' in t or re.search(r',\d{3}$', t):
+        if ',' in t and '.' in t:  # ultimul separator e cel zecimal
+            return float(t.replace('.', '').replace(',', '.')) if t.rfind(',') > t.rfind('.') else float(t.replace(',', ''))
+        if re.search(r',\d{3}$', t):
             return float(t.replace(',', ''))
         return to_num(t)
     return _p(en(cur), en(old), False, bool(old))
