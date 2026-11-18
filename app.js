@@ -115,6 +115,8 @@ function buildItems() {
 function activeSrc(it) {
   return it.src.filter(function (s) { return !s.rej && s.price != null; }).sort(function (a, b) { return a.price - b.price; });
 }
+// prețul folosit peste tot: cel mai MARE preț dintre sursele active
+function topSrc(it) { var a = activeSrc(it); return a.length ? a[a.length - 1] : null; }
 function cats() {
   var seen = {}, out = [];
   S.items.forEach(function (it) { if (!seen[it.cat]) { seen[it.cat] = 1; out.push(it.cat); } });
@@ -124,11 +126,11 @@ function cats() {
 var SORTS = {
   name: { label: 'Denumire', text: true, v: function (it) { return norm(it.name); } },
   pack: { label: 'Ambalaj', v: function (it) { return PACKS.indexOf(it.ptype) * 1e6 + it.qty; } },
-  pp: { label: 'Preț ambalaj', v: function (it) { var a = activeSrc(it); return a.length ? a[0].price : 1e12; } },
-  unit: { label: 'Preț / unitate', v: function (it) { var a = activeSrc(it); return a.length ? a[0].price / it.qty : 1e12; } },
+  pp: { label: 'Preț max. ambalaj', v: function (it) { var t = topSrc(it); return t ? t.price : 1e12; } },
+  unit: { label: 'Preț max. / unitate', v: function (it) { var t = topSrc(it); return t ? t.price / it.qty : 1e12; } },
   range: { label: 'Min–Max', v: function (it) { var a = activeSrc(it); return a.length ? a[a.length - 1].price : 1e12; } },
   nsrc: { label: 'Surse', v: function (it) { return activeSrc(it).length; } },
-  age: { label: 'Actualizat', v: function (it) { return ageInfo(activeSrc(it)[0]).min; } }
+  age: { label: 'Actualizat', v: function (it) { return ageInfo(topSrc(it)).min; } }
 };
 
 function ctx() {
@@ -146,11 +148,11 @@ function pass(it, c, except) {
   var act = activeSrc(it);
   if (except !== 'price' && (c.pmin !== null || c.pmax !== null)) {
     if (!act.length) return false;
-    var u = Math.round(act[0].price * c.mult / it.qty * 1000) / 1000;
+    var u = Math.round(act[act.length - 1].price * c.mult / it.qty * 1000) / 1000;
     if (c.pmin !== null && u < c.pmin) return false;
     if (c.pmax !== null && u > c.pmax) return false;
   }
-  if (except !== 'fresh' && c.fresh && !(act.length && !ageInfo(act[0]).stale)) return false;
+  if (except !== 'fresh' && c.fresh && !(act.length && !ageInfo(act[act.length - 1]).stale)) return false;
   return true;
 }
 
@@ -206,7 +208,7 @@ function renderPanel() {
     var n = live.filter(function (it) { return it.ptype === p && pass(it, c, 'pack'); }).length;
     return '<label class="ck' + (n ? '' : ' zero') + '"><input type="checkbox" data-in="pack" data-v="' + p + '"' + (S.packs[p] ? ' checked' : '') + '><span class="ck-n">' + p + '</span><span class="cnt">' + n + '</span></label>';
   }).join('');
-  var freshN = live.filter(function (it) { return pass(it, c, 'fresh') && (function () { var a = activeSrc(it); return a.length && !ageInfo(a[0]).stale; })(); }).length;
+  var freshN = live.filter(function (it) { return pass(it, c, 'fresh') && (function () { var t = topSrc(it); return t && !ageInfo(t).stale; })(); }).length;
   var noFilters = !activeChips().length && !S.q;
   var h = '<div class="ph"><span class="ph-t">Filtre</span><button type="button" class="ph-x" data-act="panel-close">Închide</button></div>' +
     '<div class="pbody">' +
@@ -240,6 +242,18 @@ function sortedRows(list) {
 
 function renderContent() {
   var el = $('#content');
+  var oldBody = el.querySelector('.body'), keepTop = oldBody ? oldBody.scrollTop : 0;
+  var ae = document.activeElement, keepFocus = ae && el.contains(ae) && ae.getAttribute('data-act') === 'toggle' ? ae.getAttribute('data-id') : null;
+  renderContentInner(el);
+  var nb = el.querySelector('.body');
+  if (nb && oldBody && S.view !== 'archive') nb.scrollTop = keepTop;
+  if (keepFocus) {
+    var btn = el.querySelector('[data-act="toggle"][data-id="' + keepFocus.replace(/"/g, '') + '"]');
+    if (btn) try { btn.focus({ preventScroll: true }); } catch (e) {}
+    if (nb) nb.scrollTop = keepTop;
+  }
+}
+function renderContentInner(el) {
   if (S.loadError) { el.innerHTML = '<div class="err-load" role="alert">' + esc(S.loadError) + '</div>'; return; }
   if (S.view === 'archive') { el.innerHTML = archiveHtml(); return; }
   var k = counts(), c = k.c, mult = c.mult, chips = activeChips();
@@ -260,12 +274,12 @@ function renderContent() {
   var rows = sortedRows(k.shown);
   rows.forEach(function (it, i) { h += rowHtml(it, i, mult); });
   if (!rows.length) h += '<div class="empty">Niciun produs nu corespunde căutării și filtrelor.<button type="button" data-act="clearall">Șterge tot</button></div>';
-  h += '<div class="foot">Prețuri în lei, ' + (S.vat ? 'cu TVA' : 'fără TVA') + '. Preț / unitate = cel mai mic preț de ambalaj ÷ cantitatea din ambalaj. Apasă pe antetul unei coloane pentru sortare și pe un rând pentru surse. Versiune 2.</div></main>';
+  h += '<div class="foot">Prețuri în lei, ' + (S.vat ? 'cu TVA' : 'fără TVA') + '. Se afișează cel mai mare preț dintre surse, fără reduceri. Preț / unitate = prețul maxim al ambalajului ÷ cantitatea din ambalaj. Apasă pe antetul unei coloane pentru sortare și pe un rând pentru surse. Versiune 3.</div></main>';
   el.innerHTML = h;
 }
 
 function rowHtml(it, i, mult) {
-  var act = activeSrc(it), best = act[0], worst = act[act.length - 1], info = ageInfo(best);
+  var act = activeSrc(it), low = act[0], best = act[act.length - 1], info = ageInfo(best);
   var open = !!S.open[it.id], has = !!best;
   var unitCell;
   if (has) {
@@ -281,7 +295,7 @@ function rowHtml(it, i, mult) {
     '<span class="c-pack"><span class="pk-txt">' + esc(it.pack) + '</span></span>' +
     '<span class="c-pp num">' + (has ? money(best.price * mult) : '—') + '</span>' +
     '<span class="c-unit num">' + unitCell + '</span>' +
-    '<span class="c-range num">' + (act.length > 1 ? money(best.price * mult) + '–' + money(worst.price * mult) : (has ? money(best.price * mult) : '—')) + '</span>' +
+    '<span class="c-range num">' + (act.length > 1 ? money(low.price * mult) + '–' + money(best.price * mult) : (has ? money(best.price * mult) : '—')) + '</span>' +
     '<span class="c-src num">' + act.length + '</span>' +
     '<span class="c-age' + (info.stale ? ' is-stale' : '') + '">' + esc(info.short) + '</span></button></div>';
   if (open) h += detailHtml(it, act, mult);
@@ -289,14 +303,14 @@ function rowHtml(it, i, mult) {
 }
 
 function detailHtml(it, act, mult) {
-  var edit = S.edit, med = median(act.map(function (s) { return s.price; }));
+  var edit = S.edit;
   var disp = it.src.slice().filter(function (s) { return edit || !s.rej; })
-    .sort(function (a, b) { return (a.rej - b.rej) || ((a.price == null) - (b.price == null)) || (a.price - b.price); });
+    .sort(function (a, b) { return (a.rej - b.rej) || ((a.price == null) - (b.price == null)) || (b.price - a.price); });
   var rejN = it.src.filter(function (s) { return s.rej; }).length;
   var summary;
   if (!it.src.length) summary = 'Nicio sursă încă.' + (edit ? '' : ' Prețurile vor apărea după prima actualizare.');
   else if (!act.length) summary = 'Fără preț verificat. Linkurile rămân în listă pentru acces rapid.';
-  else summary = 'Mediană: ' + money(med * mult) + ' lei / ambalaj · ' + deN(act.length, 'sursă activă', 'surse active') + (edit && rejN ? ' · ' + deN(rejN, 'respinsă', 'respinse') : '') + ' · ' + (it.delta === 0 ? 'fără variație față de ieri' : 'față de ieri: ' + (it.delta > 0 ? '+' : '') + grp(it.delta, 1) + '%');
+  else summary = 'Preț maxim: ' + money(act[act.length - 1].price * mult) + ' lei / ambalaj · ' + deN(act.length, 'sursă activă', 'surse active') + (edit && rejN ? ' · ' + deN(rejN, 'respinsă', 'respinse') : '') + ' · ' + (it.delta === 0 ? 'fără variație față de ieri' : 'față de ieri: ' + (it.delta > 0 ? '+' : '') + grp(it.delta, 1) + '%');
   var firstActive = disp.filter(function (s) { return !s.rej && s.price != null; })[0];
   var h = '<div class="detail' + (edit ? ' ed' : '') + '">';
   if (disp.length) {
@@ -305,7 +319,7 @@ function detailHtml(it, act, mult) {
       var si = ageInfo(s), pr = s.price != null;
       h += '<div class="scols srow' + (s.rej ? ' rej' : '') + '"><span class="s-name"><span class="s-nm">' + esc(s.nume) + '</span>' +
         (s.manual ? '<span class="tag">manual</span>' : '') + (!pr && !s.rej ? '<span class="tag">doar link</span>' : '') +
-        (!s.rej && act.length > 1 && s === firstActive ? '<span class="best">cel mai mic</span>' : '') + (s.rej ? '<span class="rejtag">respinsă</span>' : '') + '</span>' +
+        (!s.rej && act.length > 1 && s === firstActive ? '<span class="best">cel mai mare</span>' : '') + (s.rej ? '<span class="rejtag">respinsă</span>' : '') + '</span>' +
         '<span class="' + (si.stale && !s.rej ? 'ago is-stale' : 'ago') + '">' + esc(si.long) + '</span>' +
         '<span class="s-pp num"><span class="mlbl">ambalaj </span>' + (pr ? money(s.price * mult) : '—') + '</span>' +
         '<span class="s-u num">' + (pr ? unitFmt(s.price * mult / it.qty) + '<span class="u">/' + esc(it.unit) + '</span>' : '—') + '</span>' +
@@ -535,7 +549,7 @@ function init() {
   try { var u = JSON.parse(ls(LSUI) || '{}'); S.dark = !!u.dark; S.vat = !!u.vat; } catch (e) {}
   loadLocal();
   function get(path) { return fetch(path, { cache: 'no-cache' }).then(function (r) { if (!r.ok) throw new Error(path + ' ' + r.status); return r.json(); }); }
-  Promise.all([get('data/produse.json?v=2'), get('data/preturi.json?v=2')]).then(function (res) {
+  Promise.all([get('data/produse.json?v=3'), get('data/preturi.json?t=' + Date.now())]).then(function (res) {
     DATA.produse = res[0].produse || [];
     var p = res[1] || {};
     DATA.preturi = { actualizat: p.actualizat || null, surse: p.surse || {}, variatie: p.variatie || {} };

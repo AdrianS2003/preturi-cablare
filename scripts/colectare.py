@@ -63,65 +63,98 @@ def fara_tva(price, cu_tva):
     return round(price / TVA, 2) if cu_tva else round(price, 2)
 
 
-# ---------- parsere pe magazin: întorc (preț_curent, preț_fără_reducere|None, cu_tva) ----------
+# ---------- parsere pe magazin ----------
+# Fiecare întoarce un dict: cur (preț afișat), reg (preț fără reducere sau None), cu_tva (bool),
+# reducere (True dacă pagina semnalează reducere; dacă nu găsim prețul vechi, colectorul nu folosește prețul redus).
+def _p(cur, reg, cu_tva, reducere=False):
+    if reg is not None and cur is not None and reg <= cur + 0.004:
+        reg = None  # "preț vechi" egal sau mai mic = nu e reducere
+    return {'cur': cur, 'reg': reg, 'cu_tva': cu_tva, 'reducere': bool(reducere or reg)}
+
+
 def parse_fiberstore(soup):
-    # meta product:price:amount = preț NET (fără TVA); blocul .prod-price arată "preț [vechi] curent lei cu TVA: ..."
+    # meta product:price:amount = preț NET (fără TVA) curent; în .prod-price, dacă sunt două valori înainte de "cu TVA",
+    # prima este prețul de listă (tăiat) = preț fără reducere. Toate valorile de aici sunt fără TVA.
     cur = meta(soup, 'product:price:amount')
     reg = None
     blk = soup.select_one('.prod-price')
     if blk:
-        txt = blk.get_text(' ', strip=True)
-        before = txt.split('cu TVA')[0]
-        vals = [v for v in lei_values(before) if v]
-        # Atenție: "prețul vechi" tăiat de pe Fiberstore este un preț de listă permanent (ex. 37 lei vs 11,57 lei), nu prețul real,
-        # așa că îl ignorăm și luăm prețul curent de vânzare.
-        if len(vals) >= 1 and cur is None:
-            cur = vals[0]
-    return cur, reg, False
+        old = blk.select_one('del, s, .old-price, .regular-price')
+        if old:
+            reg = to_num(old.get_text(' ', strip=True))
+        vals = [v for v in lei_values(blk.get_text(' ', strip=True).split('cu TVA')[0]) if v]
+        if reg is None and len(vals) >= 2:
+            reg = vals[0]
+            cur = cur or vals[1]
+        elif cur is None and vals:
+            cur = vals[-1]
+    return _p(cur, reg, False)
+
+
+def _in_miniature(el):
+    return el.find_parent(class_=re.compile(r'product-miniature|products-section|featured-products|product-accessories|crossselling')) is not None
 
 
 def parse_ethercom(soup):
-    # PrestaShop: pretax = fără TVA, price = cu TVA; prețul vechi apare în .regular-price din blocul .product-prices
+    # PrestaShop 1.7: meta pretax = fără TVA (curent); JSON data-product are has_discount / regular_price_amount (cu TVA).
     pre = meta(soup, 'product:pretax_price:amount')
     cu = meta(soup, 'product:price:amount')
-    cur_net = pre if pre else (round(cu / TVA, 2) if cu else None)
-    reg_net = None
-    node = soup.select_one('.current-price')
-    for _ in range(6):
-        if node is None:
+    cur_net = pre if pre else (round(cu / TVA, 4) if cu else None)
+    reg_net, reducere = None, False
+    dp = soup.select_one('#product-details[data-product]') or soup.select_one('[data-product]')
+    if dp:
+        try:
+            j = json.loads(dp.get('data-product'))
+            if j.get('has_discount') or j.get('reduction'):
+                reducere = True
+            r = to_num(j.get('regular_price_amount'))
+            pa = to_num(j.get('price_amount'))
+            if r and pa and r > pa + 0.004:
+                # raportul regular/curent aplicat prețului net, ca să nu depindem de TVA-ul afișat
+                reg_net = round(cur_net * r / pa, 4) if cur_net else round(r / TVA, 4)
+        except (ValueError, TypeError):
+            pass
+    if reg_net is None:
+        for old in soup.select('.regular-price, .old-price, .product-discount .regular-price'):
+            if _in_miniature(old):
+                continue
+            v = to_num(old.get_text(' ', strip=True))
+            if v and cu and v > cu + 0.004:
+                reg_net = round(cur_net * v / cu, 4) if cur_net else round(v / TVA, 4)
+                break
+    for f in soup.select('.product-flag.discount, .product-flag.on-sale, .discount-percentage, .discount-amount, .on-sale'):
+        if not _in_miniature(f):
+            reducere = True
             break
-        if 'product-prices' in (node.get('class') or []):
-            old = node.select_one('.regular-price')
-            if old:
-                v = to_num(old.get_text(' ', strip=True))
-                if v:
-                    reg_net = round(v / TVA, 2)
-            break
-        node = node.parent
-    return cur_net, reg_net, False
+    return _p(cur_net, reg_net, False, reducere)
 
 
 def parse_smdplus(soup):
-    # Preț cu TVA în [itemprop=price]; prețul vechi (dacă e reducere) în #old_price_display
+    # PrestaShop 1.6: preț cu TVA în [itemprop=price]; preț vechi în #old_price_display; reducere în #reduction_percent_display.
     el = soup.select_one('[itemprop=price]')
     cur = to_num(el.get('content') or el.get_text()) if el else None
     reg = None
     old = soup.select_one('#old_price_display') or soup.select_one('.old_price')
     if old:
         reg = to_num(old.get_text(' ', strip=True))
-    return cur, reg, True
+    red = False
+    for sel in ('#reduction_percent_display', '#reduction_amount_display'):
+        r = soup.select_one(sel)
+        if r and re.search(r'[1-9]', r.get_text()):
+            red = True
+    return _p(cur, reg, True, red)
 
 
 def parse_dedeman(soup):
     # Magento: .old-price = preț vechi, .special-price = preț redus; prețurile sunt cu TVA
-    box = soup.select_one('.product-info-price') or soup
+    box = soup.select_one('.product-info-price') or soup.select_one('.product-info-main') or soup
     old = box.select_one('.old-price .price')
     special = box.select_one('.special-price .price')
     final = box.select_one('.price-final_price .price')
     cur_el = special or final
     cur = to_num(cur_el.get_text()) if cur_el else meta(soup, 'price')
     reg = to_num(old.get_text()) if old else None
-    return cur, reg, True
+    return _p(cur, reg, True, bool(special))
 
 
 PARSERE = {
@@ -138,17 +171,17 @@ def domeniu(url):
 
 
 def extrage(html, url):
-    """Întoarce prețul fără TVA, fără reducere, sau ridică ValueError."""
+    """Întoarce (preț fără TVA, fără reducere, sigur) sau ridică ValueError.
+    sigur=False: pagina arată reducere, dar nu am găsit prețul vechi (atunci nu folosim prețul redus)."""
     p = PARSERE.get(domeniu(url))
     if not p:
         raise ValueError('magazin necunoscut: ' + domeniu(url))
-    soup = BeautifulSoup(html, 'html.parser')
-    cur, reg, cu_tva = p(soup)
-    price = reg if reg else cur
+    r = p(BeautifulSoup(html, 'html.parser'))
+    price = r['reg'] or r['cur']
     if not price or price <= 0:
         raise ValueError('preț negăsit în pagină')
-    # prețurile vechi ale fiecărui parser sunt în aceeași formă (cu/fără TVA) ca prețul curent, cu excepția Ethercom (deja fără TVA)
-    return fara_tva(price, cu_tva), bool(reg)
+    sigur = not (r['reducere'] and not r['reg'])
+    return fara_tva(price, r['cu_tva']), sigur
 
 
 # ---------- rețea ----------
@@ -212,8 +245,15 @@ def main():
             entry = {'nume': s['nume'], 'url': s['url'], 'pret': prev.get('pret'), 'verificat': prev.get('verificat')}
             try:
                 html = descarca(s['url'])
-                price, _ = extrage(html, s['url'])
-                entry['pret'] = round(price * float(s.get('factor', 1)), 2)
+                price, sigur = extrage(html, s['url'])
+                price = round(price * float(s.get('factor', 1)), 2)
+                if not sigur and prev.get('pret') and prev['pret'] > price:
+                    # reducere fără preț vechi vizibil: păstrăm prețul anterior (mai mare), nu pe cel redus
+                    price = prev['pret']
+                    entry['nota'] = 'reducere în magazin; păstrat prețul fără reducere'
+                elif not sigur:
+                    entry['nota'] = 'magazinul arată reducere; prețul vechi nu a fost găsit'
+                entry['pret'] = price
                 entry['verificat'] = acum
                 ok += 1
             except Exception as e:  # noqa: BLE001
