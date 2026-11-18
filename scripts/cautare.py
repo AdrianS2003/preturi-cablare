@@ -32,7 +32,8 @@ PAUZA = 2.0
 MAGAZINE = {
     'Dedeman': {'base': 'https://www.dedeman.ro', 'prod': r'/p/\d+'},
     'Ethercom': {'base': 'https://ethercom.ro', 'prod': r'/\d+-[^/]+\.html$'},
-    'SMD Plus': {'base': 'https://smd-plus.ro', 'prod': r'/\d+-[^/]+\.html$'},
+    'SMD Plus': {'base': 'https://smd-plus.ro', 'prod': r'/\d+-[^/]+\.html$',
+                 'extra': ['/patchcorduri-si-pigtailuri-fo', '/conectica-fibra-optica', '/cabluri-fibra-optica', '/materiale-electrice']},
     'Fiberstore': {'base': 'https://fiberstore.ro', 'prod': r'.'},
     'ITConex': {'base': 'https://itconex.ro', 'prod': r'/produse/\d+-', 'start': 'https://itconex.ro/ro/'},
     'Mondo Plast': {'base': 'https://www.mondoplast.ro', 'prod': r'-pg_ft-\d+'},
@@ -42,7 +43,7 @@ MAGAZINE = {
 # ---------- reguli de potrivire: toate grupurile "req" trebuie găsite; "neg" exclude ----------
 LC = r'\blc(?:upc|pc)?\b'
 MM = r'om3|om4|multimod|multi mode|\bmm\b|50 125'
-SM = r'\bsm\b|os2|singlemod|single mode|9 125|\bom2\b|\bom1\b|62 5'
+SM = r'\bsc\b|scupc|scpc|scapc|\bst\b|\bfc\b|\bsm\b|os2|singlemod|single mode|9 125|\bom2\b|\bom1\b|62 5'
 D4025 = r'40 ?x ?25|25 ?x ?40'
 D6040 = r'60 ?x ?40|40 ?x ?60'
 CANAL = r'canal|jgheab|plinta|traseu'
@@ -166,14 +167,14 @@ def sitemap_urls(base, log):
 # ---------- rezervă: parcurgerea categoriilor (când nu există sitemap) ----------
 CAT_OK = (r'fibr|optic|\bfo\b|rack|patch|cablu|cabluri|pdu|ups|organizator|accesor|consumabil|scule|canal|retea|retele|'
           r'data ?center|pasive|odf|priz|cutii|conectica|alimentare|surse|cabinet|dulap|sfp|switch|fixare|curatare|termo|unelte|electric')
-CAT_NU = r'cont|login|cos|cart|checkout|comanda|contact|blog|termeni|politic|gdpr|cookie|wishlist|compar|search|cautare|despre|livrare|retur|brand|producator|manufacturer'
+CAT_NU = r'\b(?:contul?|login|autentificare|cos|cart|checkout|comanda|contact|blog|termeni|politica|gdpr|cookies?|wishlist|compara|search|cautare|despre|livrare|retur|brand|producator|manufacturer|eng)\b'
 
 
 def crawl(cfg, log, max_pagini=450):
     base = cfg['base']
     host = urlparse(base).netloc
     prod = re.compile(cfg['prod'])
-    coada, vazute, produse = [cfg.get('start', base + '/')], set(), {}
+    coada, vazute, produse = [cfg.get('start', base + '/')] + [base + x for x in cfg.get('extra', [])], set(), {}
     while coada and len(vazute) < max_pagini:
         u = coada.pop(0)
         if u in vazute:
@@ -261,9 +262,9 @@ def citeste(url):
         p, src = pret_generic(soup)
         r['pret_brut'] = p
         r['sursa_pret'] = src
-        txt = soup.get_text(' ', strip=True)
-        m = re.search(r'.{0,120}TVA.{0,120}', txt, re.I)
-        r['text_tva'] = m.group(0) if m else ''
+    txt = soup.get_text(' ', strip=True)
+    m = re.search(r'.{0,100}\bTVA\b.{0,100}', txt, re.I)
+    r['text_tva'] = m.group(0) if m else ''
     return r
 
 

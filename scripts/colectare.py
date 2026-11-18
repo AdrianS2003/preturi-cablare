@@ -157,12 +157,21 @@ def parse_dedeman(soup):
     return _p(cur, reg, True, bool(special))
 
 
+def parse_mondoplast(soup):
+    # Text: "Pret vechi fara TVA : 110,37 LEI  Pret nou fara TVA : 77,57 LEI" sau "Pret fara TVA: 74.42 LEI"
+    txt = soup.get_text(' ', strip=True)
+    old = re.search(r'Pret\s+vechi\s+fara\s+TVA\s*:?\s*([\d.,]+)\s*LEI', txt, re.I)
+    cur = re.search(r'Pret\s+(?:nou\s+)?fara\s+TVA\s*:?\s*([\d.,]+)\s*LEI', txt, re.I)
+    return _p(to_num(cur.group(1)) if cur else None, to_num(old.group(1)) if old else None, False, bool(old))
+
+
 PARSERE = {
     'fiberstore.ro': parse_fiberstore,
     'ethercom.ro': parse_ethercom,
     'itconex.ro': parse_ethercom,  # tot PrestaShop 1.7
     'smd-plus.ro': parse_smdplus,
     'dedeman.ro': parse_dedeman,
+    'mondoplast.ro': parse_mondoplast,
 }
 
 
